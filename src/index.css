@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #000000;
+    @apply text-off-white px-5 sm:px-10 overflow-x-hidden box-border;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-transparent rounded-full px-5 py-3 bg-white text-black font-semibold hover:bg-gray-800 hover:text-white;
+  }
+  .title {
+    @apply text-white text-6xl mb-10;
+  }
+  .card {
+    @apply bg-deep-purple px-10 py-20 rounded-3xl;
+  }
+}

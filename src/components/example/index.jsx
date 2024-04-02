@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+import Title from "../common/title";
 
 const index = () => {
   return (
@@ -29,11 +29,9 @@ const index = () => {
         />
       </div>
       <div className="w-full lg:w-5/12 z-10">
-        <Fade direction="up">
-          <p className="text-white title">
-            Take full control over your Platform Engineering journey
-          </p>
-        </Fade>
+        <Title
+          title={"Take full control over your Platform Engineering journey"}
+        />
         <p className="text-xl">
           With our free trial, you have nothing to lose, you can explore what we
           have to offer without even spending a penny. Just reach out to get

@@ -5,8 +5,9 @@ export default {
     extend: {
       colors: {
         "off-white": "#ffffffcc",
+        "rich-black": "#131313",
+        "sheer-white": "#FFFFFF1F",
         "deep-purple": "#6b37d9",
-        "transparent-white": "#FFFFFF1E",
       },
     },
   },

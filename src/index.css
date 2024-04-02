@@ -12,12 +12,12 @@
 
 @layer components {
   .btn {
-    @apply bg-transparent rounded-full px-5 py-3 bg-white text-black font-semibold hover:bg-gray-800 hover:text-white;
-  }
-  .title {
-    @apply text-white text-6xl mb-10;
+    @apply bg-transparent rounded-full px-6 py-3 bg-white text-black font-semibold hover:bg-sheer-white hover:text-white transition-all;
   }
   .card {
-    @apply bg-deep-purple px-10 py-20 rounded-3xl;
+    @apply bg-deep-purple px-10 py-20 rounded-3xl relative overflow-hidden;
+  }
+  .feature-btn:hover img {
+    @apply invert;
   }
 }

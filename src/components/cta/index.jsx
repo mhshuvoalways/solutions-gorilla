@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+import Title from "../common/title";
 
 const index = () => {
   return (
@@ -18,9 +18,7 @@ const index = () => {
         }}
       ></div>
       <div className="z-10 text-center">
-        <Fade direction="up">
-          <p className="title">We build, We train, you own</p>
-        </Fade>
+        <Title title={"We build, We train, you own"} />
         <p className="text-2xl">
           Reach out to our team and start owning your Platform and DevX today!
         </p>

@@ -4,7 +4,7 @@ import Slider from "./Slider";
 const Hero = () => {
   return (
     <div
-      className={`card lg:py-0 relative flex items-center flex-wrap lg:flex-nowrap gap-5 overflow-hidden`}
+      className={`card lg:py-0 flex items-center flex-wrap lg:flex-nowrap gap-5`}
     >
       <div
         style={{

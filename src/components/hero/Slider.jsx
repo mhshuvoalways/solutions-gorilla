@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 export default function SimpleSlider() {
-  var settings = {
+  let settings = {
     dots: false,
     infinite: true,
     arrows: false,

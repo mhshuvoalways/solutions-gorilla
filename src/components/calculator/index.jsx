@@ -61,7 +61,7 @@ const items = [
 
 const Calculator = () => {
   const [progressWithUs, setProgressWithUs] = useState(100);
-  const [progressWithOutUs, setProgressWithOutUs] = useState(50);
+  const [progressWithOutUs, setProgressWithOutUs] = useState(35.5);
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
   const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(230769);
   const [allItems, setAllItems] = useState(items);
@@ -93,7 +93,7 @@ const Calculator = () => {
       setProgressWithUs(0);
     } else {
       setProgressWithUsValue(30000 + checkCount * 5000 - 5000);
-      checkCount * 20;
+      setProgressWithUs(checkCount * 20);
     }
   }, [allItems]);
 

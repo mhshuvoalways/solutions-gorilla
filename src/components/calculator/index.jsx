@@ -60,8 +60,8 @@ const items = [
 ];
 
 const Calculator = () => {
-  const [progressWithUs, setProgressWithUs] = useState(100);
-  const [progressWithOutUs, setProgressWithOutUs] = useState(35.5);
+  const [progressWithUs, setProgressWithUs] = useState(0);
+  const [progressWithOutUs, setProgressWithOutUs] = useState(0);
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
   const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(230769);
   const [allItems, setAllItems] = useState(items);

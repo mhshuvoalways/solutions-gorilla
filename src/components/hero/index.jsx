@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import Slider from "./Slider";
 
 const Hero = () => {
@@ -45,8 +46,12 @@ const Hero = () => {
           </ul>
         </div>
         <div className="flex items-center gap-3 flex-wrap">
-          <button className="btn">Check out our 4 Weeks Program</button>
-          <button className="btn">Discover the Architecture</button>
+          <Link to={"/our-process"}>
+            <button className="btn">Check out our 4 Weeks Program</button>
+          </Link>
+          <Link to={"/architecture"}>
+            <button className="btn">Discover the Architecture</button>
+          </Link>
         </div>
       </div>
       <div className="w-10/12 mx-auto lg:w-4/12 h-full">

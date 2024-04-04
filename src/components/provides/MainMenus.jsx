@@ -1,8 +1,10 @@
 const MainMenus = ({ setSelectItem, selectItem, item }) => {
   return (
     <div
-      className={`flex items-center p-5 hover:bg-sheer-white gap-6 rounded-lg cursor-pointer justify-between border-sheer-white border hover:border-deep-purple transition-all ${
-        selectItem.id === item.id && "border-deep-purple"
+      className={`flex items-center p-5 hover:bg-sheer-white gap-6 rounded-lg cursor-pointer justify-between border hover:border-deep-purple transition-all ${
+        selectItem.id === item.id
+          ? "border-deep-purple"
+          : "border-sheer-white"
       }`}
       onClick={() => setSelectItem(item)}
     >

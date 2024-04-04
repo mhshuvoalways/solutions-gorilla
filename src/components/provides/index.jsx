@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import { Element } from "react-scroll";
 import Title from "../common/title";
 import Description from "./Description";
 import MainMenus from "./MainMenus";
@@ -229,10 +230,10 @@ const items = [
 ];
 
 const Provides = () => {
-  const [selectItem, setSelectItem] = useState(items[0]);
+  const [selectItem, setSelectItem] = useState(items[4]);
 
   return (
-    <div className="mt-28 card bg-rich-black">
+    <Element name="provides" className="mt-28 card bg-rich-black">
       <Title
         title={"Built on Open-Source for Flexibility"}
         className={"text-center"}
@@ -255,7 +256,7 @@ const Provides = () => {
           </Fade>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

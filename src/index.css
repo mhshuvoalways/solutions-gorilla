@@ -8,6 +8,33 @@
     background-color: #000000;
     @apply text-off-white px-5 sm:px-10 overflow-x-hidden box-border;
   }
+  /* styles.css */
+  .checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .checkbox-input:checked {
+    background-color: #007bff; /* Change the background color when checked */
+    border-color: #007bff; /* Change the border color when checked */
+  }
+
+  .checkbox-label {
+    font-size: 16px;
+    margin-left: 8px;
+  }
 }
 
 @layer components {

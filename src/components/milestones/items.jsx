@@ -10,7 +10,9 @@ const items = ({ reverse, image, title, subTitle, description }) => {
       }`}
     >
       <div className="w-full sm:w-2/12 relative">
-        <ScreenShots image={image} />
+        <Fade>
+          <ScreenShots image={image} />
+        </Fade>
       </div>
       <div className="w-full sm:w-4/12">
         <Title className={"mb-2"} title={title} />

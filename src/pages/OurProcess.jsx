@@ -10,7 +10,6 @@ const OurProcess = () => {
     <>
       <ReactHelmet>
         <title>Gorilla Solutions - The Process</title>
-        <meta charset="utf-8" />
         <meta
           content="In-depth explanation of our monthly process to enable your platform engineering journey."
           name="description"

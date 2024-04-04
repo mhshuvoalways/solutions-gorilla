@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ScreenShots from "../common/screenshots";
 import Title from "../common/title";
 
@@ -27,7 +28,9 @@ const index = () => {
             deploying applications in kubernetes.
           </p>
           <div className="mt-5 flex items-center gap-2 text-white underline hover:text-off-white cursor-pointer">
-            <button>Explore the platform</button>
+            <Link to={"/our-process"}>
+              <button>Explore Our Simple Process</button>
+            </Link>
             <img src="/icons/arrow-right.svg" className="w-5" />
           </div>
         </div>
@@ -48,7 +51,9 @@ const index = () => {
             a change of hearth.
           </p>
           <div className="mt-5 flex items-center gap-2 text-white underline hover:text-off-white cursor-pointer">
-            <button>Explore the platform</button>
+            <Link to={"/architecture"}>
+              <button>Explore the platform</button>
+            </Link>
             <img src="/icons/arrow-right.svg" className="w-5" />
           </div>
         </div>

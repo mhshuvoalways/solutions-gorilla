@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import Title from "../common/title";
 
 const index = () => {
@@ -12,7 +13,9 @@ const index = () => {
             Platform pipeline.
           </p>
         </Fade>
-        <button className="btn">Get a Trial</button>
+        <Link to={"/contact-us"}>
+          <button className="btn mt-10">Get a Trial</button>
+        </Link>
         <p className="text-gray-500 text-sm">
           {`By installing or using the software, you acknowledge and agree to be
         bound by the terms and conditions of the EULA. The software is provided

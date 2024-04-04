@@ -9,7 +9,6 @@ const OurProcess = () => {
   return (
     <>
       <ReactHelmet>
-        <meta charset="utf-8" />
         <title>Gorilla Solutions - Platform architecture</title>
         <meta
           content="Architecture overview of our solution"

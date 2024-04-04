@@ -12,7 +12,6 @@ const Home = () => {
     <>
       <ReactHelmet>
         <title>Solutions Gorilla</title>
-        <meta charset="UTF-8" />
         <meta content="Cloud Native experts" name="description" />
         <meta content="Solutions Gorilla" property="og:title" />
         <meta content="Cloud Native experts" property="og:description" />

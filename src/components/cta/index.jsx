@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Title from "../common/title";
 
 const index = () => {
@@ -22,7 +23,9 @@ const index = () => {
         <p className="text-2xl">
           Reach out to our team and start owning your Platform and DevX today!
         </p>
-        <button className="btn mt-10">Get in touch</button>
+        <Link to={"/contact-us"}>
+          <button className="btn mt-10">Get in touch</button>
+        </Link>
       </div>
     </div>
   );

@@ -99,9 +99,9 @@ const Calculator = () => {
 
   const withOutUsCalculator = useCallback(() => {
     const temp = [...allItems];
-    let value = 0;
+    let value = 1;
     let values = 1;
-    const maxValue = 640000;
+    const maxValue = 650000;
     temp.forEach((el) => {
       if (el.placeholder) {
         if (el.id === 7) {
@@ -113,7 +113,11 @@ const Calculator = () => {
     });
     const currentValue = Math.round(value * values);
     setProgressWithOutUsValue(currentValue);
-    setProgressWithOutUs((currentValue / maxValue) * 100);
+    if (currentValue <= maxValue) {
+      setProgressWithOutUs((currentValue / maxValue) * 100);
+    } else {
+      setProgressWithOutUs(100);
+    }
   }, [allItems]);
 
   useEffect(() => {

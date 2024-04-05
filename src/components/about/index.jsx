@@ -5,11 +5,11 @@ import Title from "../common/title";
 const index = () => {
   return (
     <div>
-      <div className="flex items-center justify-evenly mt-28 flex-wrap sm:flex-nowrap gap-10">
-        <div className="w-full sm:w-3/12 relative">
+      <div className="flex items-center justify-evenly mt-28 flex-wrap lg:flex-nowrap gap-10">
+        <div className="w-full lg:w-3/12 relative">
           <ScreenShots image="/images/settings.jpeg" />
         </div>
-        <div className="w-full sm:w-5/12">
+        <div className="w-full lg:w-5/12">
           <Title title={"Platform, Portal, DevOps, DevX"} />
           <p className="text-xl">
             We hand over to your Team of Platform and DevOps Engineers a solid
@@ -35,8 +35,8 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-evenly mt-28 flex-wrap sm:flex-nowrap gap-10">
-        <div className="w-full sm:w-5/12">
+      <div className="flex items-center justify-evenly mt-28 flex-wrap lg:flex-nowrap gap-10">
+        <div className="w-full lg:w-5/12">
           <Title title={"Based on Cloud Native and Open-Source"} />
           <p className="text-xl">
             We believe in customer freedom. We opt-in a flexible approach that
@@ -57,7 +57,7 @@ const index = () => {
             <img src="/icons/arrow-right.svg" className="w-5" />
           </div>
         </div>
-        <div className="w-full sm:w-3/12 flex justify-center items-center">
+        <div className="w-full lg:w-3/12 flex justify-center items-center">
           <img
             src="/images/bg-lines.svg"
             className="absolute -z-10 opacity-40"

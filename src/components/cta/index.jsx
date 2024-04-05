@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Title from "../common/title";
 
-const index = () => {
+const index = ({ title, description, className }) => {
   return (
     <div
       className={`card relative flex items-center flex-wrap lg:flex-nowrap justify-center mt-28 overflow-hidden`}
@@ -18,11 +18,9 @@ const index = () => {
           backgroundImage: `linear-gradient(341deg, rgba(0, 0, 0, 0), #000)`,
         }}
       ></div>
-      <div className="z-10 text-center">
-        <Title title={"We build, We train, you own"} />
-        <p className="text-2xl">
-          Reach out to our team and start owning your Platform and DevX today!
-        </p>
+      <div className={`relative ${className}`}>
+        <Title title={title} />
+        <p className="text-2xl">{description}</p>
         <Link to={"/contact-us"}>
           <button className="btn mt-10">Get in touch</button>
         </Link>

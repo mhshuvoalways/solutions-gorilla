@@ -2,6 +2,8 @@ import ReactHelmet from "../app/ReactHelmet";
 import Calculator from "../components/calculator";
 import Header from "../components/common/header";
 import Footer from "../components/footer";
+import Pricing from "../components/pricing";
+import Trial from "../components/trial";
 
 const OurProcess = () => {
   return (
@@ -26,6 +28,8 @@ const OurProcess = () => {
       <div className="container mx-auto">
         <Header />
         <Calculator />
+        <Pricing />
+        <Trial />
         <Footer />
       </div>
     </>

@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 
-const index = ({ className, title }) => {
+const Title = ({ className, title }) => {
   return (
     <Fade direction="up" className={`text-white text-6xl mb-10 ${className}`}>
       {title}
@@ -8,4 +8,4 @@ const index = ({ className, title }) => {
   );
 };
 
-export default index;
+export default Title;

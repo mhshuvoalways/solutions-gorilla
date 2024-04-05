@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import ButtonArrow from "../common/buttons/ButtonArrow";
 import Title from "../common/title";
 
 const index = () => {
@@ -39,10 +40,7 @@ const index = () => {
           className="mt-28 w-full sm:w-9/12 mx-auto"
         />
         <Link to="provides" spy={true} smooth={true}>
-          <div className="mt-20 flex items-center justify-center gap-2 text-white font-bold text-xl cursor-pointer bg-sheer-white w-40 mx-auto rounded-full p-2 shadow-xl hover:bg-white hover:text-black feature-btn transition-all">
-            <button>Features</button>
-            <img src="/icons/arrow-bottom.svg" className="w-5 transition-all" />
-          </div>
+          <ButtonArrow title={"Features"} />
         </Link>
       </div>
     </div>

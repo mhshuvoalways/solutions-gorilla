@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
+import { Link } from "react-scroll";
+import ButtonArrow from "../common/buttons/ButtonArrow";
 import Title from "../common/title";
 import CheckBoxItem from "./CheckBoxItem";
 import InputCard from "./InputCard";
@@ -143,56 +145,61 @@ const Calculator = () => {
         src="/images/blurred-circle-tiny.png"
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
-      <div className="relative flex flex-col-reverse lg:flex-row justify-evenly items-end gap-10">
-        <div className="w-full lg:w-4/12 text-center">
-          <div className="flex gap-10 items-end justify-center">
-            <div className="space-y-5">
-              <p className="text-green-600">{progressWithUsValue}$</p>
-              <ProgressBar progressHeight={progressWithUs} />
-              <p className="text-white font-semibold text-lg">With us</p>
+      <div className="relative">
+        <div className="flex flex-col-reverse lg:flex-row justify-evenly items-end gap-10">
+          <div className="w-full lg:w-4/12 text-center">
+            <div className="flex gap-10 items-end justify-center">
+              <div className="space-y-5">
+                <p className="text-green-600">{progressWithUsValue}$</p>
+                <ProgressBar progressHeight={progressWithUs} />
+                <p className="text-white font-semibold text-lg">With us</p>
+              </div>
+              <div className="space-y-5">
+                <p className="text-red-600">{progressWithOutUsValue}$</p>
+                <ProgressBar progressHeight={progressWithOutUs} />
+                <p className="text-white font-semibold text-lg">Without us</p>
+              </div>
             </div>
-            <div className="space-y-5">
-              <p className="text-red-600">{progressWithOutUsValue}$</p>
-              <ProgressBar progressHeight={progressWithOutUs} />
-              <p className="text-white font-semibold text-lg">Without us</p>
+            <div className="mt-10">
+              <p className="text-2xl text-white tracking-widest font-semibold leading-normal">
+                4.6x less expensive and <br />
+                5.0x shorter to build if <br />
+                you build with us!
+              </p>
+              <small>
+                The Gorilla Solutions TCO Calculator is an estimation tool only.
+                Results are approximate and should not be solely relied upon for
+                decision-making. Gorilla Solutions assumes no legal liability
+                for the accuracy of the calculations or their impact on your
+                business decisions.
+              </small>
             </div>
           </div>
-          <div className="mt-10">
-            <p className="text-2xl text-white tracking-widest font-semibold leading-normal">
-              4.6x less expensive and <br />
-              5.0x shorter to build if <br />
-              you build with us!
-            </p>
-            <small>
-              The Gorilla Solutions TCO Calculator is an estimation tool only.
-              Results are approximate and should not be solely relied upon for
-              decision-making. Gorilla Solutions assumes no legal liability for
-              the accuracy of the calculations or their impact on your business
-              decisions.
-            </small>
+          <div className="w-full lg:w-4/12">
+            <Title title="TCO Calculator" />
+            {allItems.map((item) => (
+              <InputCard key={item.id} item={item.item} bg={item.bg}>
+                {item.placeholder ? (
+                  <InputItem
+                    id={item.id}
+                    value={item.value}
+                    placeholder={item.placeholder}
+                    onChangeHandler={onChangeHandler}
+                  />
+                ) : (
+                  <CheckBoxItem
+                    id={item.id}
+                    isChecked={item.isChecked}
+                    checkHandler={checkHandler}
+                  />
+                )}
+              </InputCard>
+            ))}
           </div>
         </div>
-        <div className="w-full lg:w-4/12">
-          <Title title="TCO Calculator" />
-          {allItems.map((item) => (
-            <InputCard key={item.id} item={item.item} bg={item.bg}>
-              {item.placeholder ? (
-                <InputItem
-                  id={item.id}
-                  value={item.value}
-                  placeholder={item.placeholder}
-                  onChangeHandler={onChangeHandler}
-                />
-              ) : (
-                <CheckBoxItem
-                  id={item.id}
-                  isChecked={item.isChecked}
-                  checkHandler={checkHandler}
-                />
-              )}
-            </InputCard>
-          ))}
-        </div>
+        <Link to="pricing" spy={true} smooth={true}>
+          <ButtonArrow title={"Explore Pricing"} />
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export default function DropDown({ items, button }) {
   return (
@@ -21,13 +22,15 @@ export default function DropDown({ items, button }) {
             {items.map((item) => (
               <Menu.Item key={item}>
                 {({ active }) => (
-                  <p
-                    className={`${
-                      active ? "text-white" : "text-off-white"
-                    } flex w-full items-center rounded-md px-2 py-2 cursor-pointer font-medium text-lg`}
-                  >
-                    {item}
-                  </p>
+                  <Link to={item.url}>
+                    <p
+                      className={`${
+                        active ? "text-white" : "text-off-white"
+                      } flex w-full items-center rounded-md px-2 py-2 cursor-pointer font-medium text-lg`}
+                    >
+                      {item.menu}
+                    </p>
+                  </Link>
                 )}
               </Menu.Item>
             ))}

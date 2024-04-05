@@ -2,10 +2,17 @@ import { Link } from "react-router-dom";
 import DropDown from "../dropdown";
 
 const Header = () => {
-  const items = ["Our Process", "The Platform", "Pricing", "About Us", ""];
+  const items = [
+    { menu: "Our Process", url: "/our-process" },
+    { menu: "The Platform", url: "/architecture" },
+    { menu: "Pricing", url: "/pricing" },
+    { menu: "About Us", url: "/about-us" },
+    { menu: "Get a Trial", url: "/contact-us" },
+    { menu: "Book a Demo", url: "/contact-us" },
+  ];
 
   return (
-    <header className="flex items-center justify-between gap-5 py-4 sticky top-0 z-40 backdrop-blur-sm">
+    <header className="flex items-center justify-between gap-5 py-4 sticky top-0 z-30 backdrop-blur-sm">
       <Link to={"/"}>
         <img src="/images/logo.svg" className="w-72 cursor-pointer" />
       </Link>

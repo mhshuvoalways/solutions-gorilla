@@ -14,7 +14,7 @@ const items = ({ reverse, image, title, subTitle, description }) => {
           <ScreenShots image={image} />
         </Fade>
       </div>
-      <div className="w-full sm:w-4/12">
+      <div className="w-full sm:w-5/12">
         <Title className={"mb-2"} title={title} />
         <Fade direction="up">
           <p className="text-2xl text-white">{subTitle}</p>

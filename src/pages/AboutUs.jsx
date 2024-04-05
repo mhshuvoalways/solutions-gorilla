@@ -4,8 +4,11 @@ import CTA from "../components/cta";
 import Footer from "../components/footer";
 import Mission from "../components/mission";
 import Team from "../components/team";
+import usePageTop from "../hook/usePageTop";
 
 const OurProcess = () => {
+  usePageTop();
+
   return (
     <>
       <ReactHelmet>

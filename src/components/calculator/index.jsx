@@ -65,7 +65,7 @@ const Calculator = () => {
   const [progressWithUs, setProgressWithUs] = useState(0);
   const [progressWithOutUs, setProgressWithOutUs] = useState(0);
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
-  const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(230769);
+  const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(0);
   const [allItems, setAllItems] = useState(items);
 
   const checkHandler = (id) => {
@@ -162,8 +162,10 @@ const Calculator = () => {
             </div>
             <div className="mt-10">
               <p className="text-2xl text-white tracking-widest font-semibold leading-normal">
-                4.6x less expensive and <br />
-                5.0x shorter to build if <br />
+                {(progressWithOutUsValue / progressWithUsValue).toFixed(1)}x
+                less expensive and <br />
+                {((allItems[6].value * allItems[7].value) / 4).toFixed(1)}x
+                shorter to build if <br />
                 you build with us!
               </p>
               <small>

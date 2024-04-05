@@ -249,7 +249,7 @@ const Provides = () => {
             />
           ))}
         </div>
-        <div className="w-full lg:w-5/12">
+        <div className="w-full lg:w-6/12">
           <Fade key={selectItem.id}>
             <Description selectItem={selectItem} />
             <SliderComponent selectItem={selectItem} />

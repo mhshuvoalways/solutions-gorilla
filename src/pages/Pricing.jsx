@@ -4,8 +4,11 @@ import Header from "../components/common/header";
 import Footer from "../components/footer";
 import Pricing from "../components/pricing";
 import Trial from "../components/trial";
+import usePageTop from "../hook/usePageTop";
 
 const OurProcess = () => {
+  usePageTop();
+
   return (
     <>
       <ReactHelmet>

@@ -1,4 +1,6 @@
-const MemberItem = ({ reverse, image, name, description }) => {
+import { Link } from "react-router-dom";
+
+const MemberItem = ({ reverse, image, name, description, linkedin }) => {
   return (
     <div
       className={`flex items-center md:items-end justify-center flex-wrap gap-10 mt-20 ${
@@ -9,7 +11,9 @@ const MemberItem = ({ reverse, image, name, description }) => {
       <div className="w-full sm:w-5/12">
         <div className="flex items-center justify-between">
           <p className="text-2xl text-white tracking-wide">{name}</p>
-          <img src="/icons/linkedin.svg" />
+          <Link to={linkedin} target="blank">
+            <img src="/icons/linkedin.svg" />
+          </Link>
         </div>
         <p className="mt-5 text-sm">FOUNDER</p>
         <p className="text-lg mt-10">{description}</p>

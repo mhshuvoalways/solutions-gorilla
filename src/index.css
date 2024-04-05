@@ -6,7 +6,7 @@
   body {
     font-family: "Space Grotesk", sans-serif;
     background-color: #000000;
-    @apply text-off-white px-5 sm:px-10 overflow-x-hidden box-border;
+    @apply text-off-white px-2 sm:px-10 overflow-x-hidden box-border;
   }
 }
 
@@ -15,7 +15,7 @@
     @apply bg-transparent rounded-full px-7 py-3 bg-white text-black font-semibold hover:bg-sheer-white hover:text-white transition-all shadow-md;
   }
   .card {
-    @apply bg-deep-purple px-10 py-20 rounded-3xl relative overflow-hidden;
+    @apply bg-deep-purple p-10 sm:p-20 rounded-3xl relative overflow-hidden;
   }
   .feature-btn:hover img {
     @apply invert;

@@ -23,29 +23,50 @@ const Hero = () => {
         src="/images/blurred-circle-tiny.png"
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
-      <div className="relative space-y-6 w-full lg:w-8/12">
+      <div className="relative w-full lg:w-8/12">
         <Fade direction="up">
-          <p className="text-5xl text-white font-semibold">
+          <p className="text-3xl sm:text-5xl text-white font-semibold">
             Build your dream Platform <br />
             within weeks, Not Months.
           </p>
         </Fade>
-        <p className="text-2xl">
+        <p className="text-2xl mt-6">
           Launch your platform journey in just 4 weeks!
         </p>
-        <div className="text-2xl">
+        <div className="text-2xl mt-6">
           <p>Our program delivers a comprehensive foundation including:</p>
           <ul>
-            <li>- Self-service capabilities</li>
-            <li>- Infrastructure setup</li>
-            <li>- Observability (metrics, logs, tracing, APM)</li>
-            <li>- Security tooling</li>
-            <li>- Continuous delivery</li>
-            <li>- Customizable templates</li>
+            <li>
+              - <p className="inline text-white font-semibold">Self-service</p>{" "}
+              capabilities
+            </li>
+            <li>
+              -{" "}
+              <p className="inline text-white font-semibold">Infrastructure</p>{" "}
+              setup
+            </li>
+            <li>
+              - <p className="inline text-white font-semibold">Observability</p>{" "}
+              (metrics, logs, tracing, APM)
+            </li>
+            <li>
+              - <p className="inline text-white font-semibold">Security</p>{" "}
+              tooling
+            </li>
+            <li>
+              -{" "}
+              <p className="inline text-white font-semibold">
+                Continuous delivery
+              </p>
+            </li>
+            <li>
+              - Customizable{" "}
+              <p className="inline text-white font-semibold">templates</p>
+            </li>
             <li>- And more</li>
           </ul>
         </div>
-        <div className="flex items-center gap-3 flex-wrap">
+        <div className="flex items-center gap-3 flex-wrap mt-20">
           <Link to={"/our-process"}>
             <button className="btn">Check out our 4 Weeks Program</button>
           </Link>

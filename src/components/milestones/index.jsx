@@ -62,7 +62,7 @@ const index = () => {
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
       <div className="relative space-y-16">
-        <div className="w-full md:w-10/12 lg:w-7/12">
+        <div className="w-full md:w-10/12 lg:w-8/12">
           <Title title={"Key Milestones"} className={"text-7cl"} />
           <Fade direction="up">
             <p className="text-2xl text-white">

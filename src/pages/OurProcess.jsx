@@ -4,8 +4,11 @@ import CompareGorilla from "../components/compareGorilla";
 import Footer from "../components/footer";
 import MileStones from "../components/milestones";
 import Trial from "../components/trial";
+import usePageTop from "../hook/usePageTop";
 
 const OurProcess = () => {
+  usePageTop();
+
   return (
     <>
       <ReactHelmet>

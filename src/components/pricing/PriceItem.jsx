@@ -1,8 +1,12 @@
 const PriceItem = ({ item }) => {
   return (
-    <div className="bg-sheer-white rounded-3xl p-6 shadow-md">
+    <div
+      className={`bg-sheer-white rounded-3xl p-6 shadow-md ${
+        item.id === 2 && "border-2 border-deep-purple"
+      }`}
+    >
       <p className="text-lg text-white tracking-wider">{item.title}</p>
-      <p className={"mt-6 text-white text-5xl"}>{item.price}</p>
+      <p className={"mt-6 text-white text-3xl sm:text-5xl"}>{item.price}</p>
       <p className="font-semibold text-lg mt-1">{item.timeline}</p>
       <p
         className="h-[1px] w-full my-5"

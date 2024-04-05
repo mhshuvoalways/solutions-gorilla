@@ -21,11 +21,18 @@ const SliderComponent = ({ selectItem }) => {
   };
 
   return (
-    <Slider {...settings} className="bg-black mt-2">
-      {selectItem.sliderImages.map((i, index) => (
-        <img src={`/images/${i}`} className="min-w-20 h-24" key={index} />
-      ))}
-    </Slider>
+    <div
+      style={{
+        backgroundImage:
+          "linear-gradient(to right, #000, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 85%, #000)",
+      }}
+    >
+      <Slider {...settings} className="mt-2">
+        {selectItem.sliderImages.map((i, index) => (
+          <img src={`/images/${i}`} className="min-w-20 h-24" key={index} />
+        ))}
+      </Slider>
+    </div>
   );
 };
 

@@ -4,8 +4,11 @@ import Footer from "../components/footer";
 import WeProvides from "../components/provides";
 import ReferenceArchitecture from "../components/referenceArchitecture";
 import Trial from "../components/trial";
+import usePageTop from "../hook/usePageTop";
 
 const OurProcess = () => {
+  usePageTop();
+
   return (
     <>
       <ReactHelmet>

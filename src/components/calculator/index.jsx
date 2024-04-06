@@ -67,7 +67,6 @@ const Calculator = () => {
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
   const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(0);
   const [allItems, setAllItems] = useState(items);
-  const maxValue = 400000;
 
   const checkHandler = (id) => {
     const temp = [...allItems];
@@ -86,6 +85,7 @@ const Calculator = () => {
   const withUsCalculator = useCallback(() => {
     const temp = [...allItems];
     let checkCount = 0;
+    const minValue = 30000;
     temp.forEach((el) => {
       if (el.isChecked) {
         checkCount++;
@@ -95,13 +95,14 @@ const Calculator = () => {
       setProgressWithUsValue(0);
       setProgressWithUs(0);
     } else {
-      setProgressWithUsValue(maxValue - 20000 + checkCount * 5000 - 5000);
+      setProgressWithUsValue(minValue + checkCount * 5000 - 5000);
       setProgressWithUs(checkCount * 20);
     }
   }, [allItems]);
 
   const withOutUsCalculator = useCallback(() => {
     const temp = [...allItems];
+    const maxValue = 400000;
     let value = 1;
     let values = 1;
     temp.forEach((el) => {

@@ -67,6 +67,7 @@ const Calculator = () => {
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
   const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(0);
   const [allItems, setAllItems] = useState(items);
+  const maxValue = 400000;
 
   const checkHandler = (id) => {
     const temp = [...allItems];
@@ -94,7 +95,7 @@ const Calculator = () => {
       setProgressWithUsValue(0);
       setProgressWithUs(0);
     } else {
-      setProgressWithUsValue(30000 + checkCount * 5000 - 5000);
+      setProgressWithUsValue(maxValue - 20000 + checkCount * 5000 - 5000);
       setProgressWithUs(checkCount * 20);
     }
   }, [allItems]);
@@ -103,7 +104,6 @@ const Calculator = () => {
     const temp = [...allItems];
     let value = 1;
     let values = 1;
-    const maxValue = 650000;
     temp.forEach((el) => {
       if (el.placeholder) {
         if (el.id === 7) {

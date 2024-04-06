@@ -27,10 +27,10 @@ const index = () => {
             Streamline your Platform at a fraction of the time.
           </p>
         </Fade>
-        <div className="flex flex-wrap sm:flex-nowrap items-center gap-6 w-8/12 mx-auto mt-20">
-          <img src="/images/logo.svg" className="w-10/12 sm:w-3/12 mx-auto" />
+        <div className="flex flex-wrap lg:flex-nowrap items-center gap-6 w-full lg:w-10/12 mx-auto mt-20">
+          <img src="/images/logo.svg" className="w-10/12 lg:w-3/12 mx-auto" />
           <div className="border p-3 rounded w-full flex items-center gap-6">
-            <div className="relative h-6 w-full sm:w-3/12">
+            <div className="relative h-6 w-full lg:w-3/12">
               <p className="bg-sheer-white rounded absolute inset-0" />
               <p
                 className="absolute inset-0 rounded"
@@ -39,13 +39,17 @@ const index = () => {
                 }}
               />
             </div>
-            <p className="font-semibold">1 Month</p>
+            <p className="font-semibold text-nowrap">1 Month</p>
           </div>
         </div>
-        <div className="flex mt-7 justify-center gap-2 sm:gap-6 text-lg font-semibold text-white text-nowrap flex-wrap">
-          <p>Without Us</p>
-          <p className="bg-sheer-white rounded h-6 w-full  sm:w-5/12" />
-          <p>4 to 12 Months*</p>
+        <div className="block lg:flex mt-7 justify-center items-center gap-2 lg:gap-6 text-lg font-semibold text-white text-nowrap">
+          <p className="text-start lg:text-center">Without Us</p>
+          <div className="flex lg:hidden items-center justify-center gap-2 w-full">
+            <p className="bg-sheer-white rounded h-6 w-full mx-auto" />
+            <p>4 to 12 Months*</p>
+          </div>
+          <p className="bg-sheer-white rounded h-6 w-full lg:w-4/12 hidden lg:block" />
+          <p className="hidden lg:block hover:">4 to 12 Months*</p>
         </div>
         <p className="mt-20 text-lg italic">
           *The time required to build a platform is highly variable. <br />

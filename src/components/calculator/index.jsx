@@ -115,10 +115,11 @@ const Calculator = () => {
       }
     });
     const currentValue = Math.round(value * values);
-    setProgressWithOutUsValue(currentValue);
     if (currentValue <= maxValue) {
+      setProgressWithOutUsValue(currentValue);
       setProgressWithOutUs((currentValue / maxValue) * 100);
     } else {
+      setProgressWithOutUsValue(maxValue);
       setProgressWithOutUs(100);
     }
   }, [allItems]);

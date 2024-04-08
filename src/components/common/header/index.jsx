@@ -25,10 +25,10 @@ const Header = () => {
       </ul>
       <div className="lg:flex items-center gap-3 hidden">
         <Link to={"/contact-us"}>
-          <button className="btn">Get a Trial</button>
+          <button className="btn">{items[4].menu}</button>
         </Link>
         <Link to={"/contact-us"}>
-          <button className="btn">Book a Demo</button>
+          <button className="btn">{items[5].menu}</button>
         </Link>
       </div>
       <div className="block lg:hidden">

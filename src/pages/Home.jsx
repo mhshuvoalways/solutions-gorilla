@@ -30,7 +30,12 @@ const Home = () => {
         <About />
         <Example />
         <Services />
-        <CTA title={cta.title} description={cta.des} className="text-center" />
+        <CTA
+          title={cta.title}
+          description={cta.des}
+          btn={cta.btn}
+          className="text-center"
+        />
         <Footer />
       </div>
     </>

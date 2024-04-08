@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Title from "../common/title";
 
-const index = ({ title, description, className }) => {
+const index = ({ title, description, className, btn }) => {
   return (
     <div
       className={`card relative flex items-center flex-wrap lg:flex-nowrap justify-center mt-28 overflow-hidden`}
@@ -22,7 +22,7 @@ const index = ({ title, description, className }) => {
         <Title title={title} />
         <p className="text-2xl">{description}</p>
         <Link to={"/contact-us"}>
-          <button className="btn mt-10">Get in touch</button>
+          <button className="btn mt-10">{btn}</button>
         </Link>
       </div>
     </div>

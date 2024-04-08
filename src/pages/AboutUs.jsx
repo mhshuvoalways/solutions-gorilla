@@ -30,6 +30,7 @@ const OurProcess = () => {
         <CTA
           title={cta.btn}
           description={cta.about}
+          btn={cta.btn}
           className={"w-full sm:w-7/12"}
         />
         <Footer />

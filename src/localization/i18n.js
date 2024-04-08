@@ -5,12 +5,14 @@ import enCta from "./locales/en/cta.json";
 import enExample from "./locales/en/example.json";
 import enHeader from "./locales/en/header.json";
 import enHero from "./locales/en/hero.json";
+import enMilestones from "./locales/en/milestones.json";
 import enServices from "./locales/en/services.json";
 import frAbout from "./locales/fr/about.json";
 import frCta from "./locales/fr/cta.json";
 import frExample from "./locales/fr/example.json";
 import frHeader from "./locales/fr/header.json";
 import frHero from "./locales/fr/hero.json";
+import frMilestones from "./locales/fr/milestones.json";
 import frServices from "./locales/fr/services.json";
 
 const resources = {
@@ -22,6 +24,7 @@ const resources = {
       example: enExample,
       services: enServices,
       cta: enCta,
+      milestones: enMilestones,
     },
   },
   fr: {
@@ -32,6 +35,7 @@ const resources = {
       example: frExample,
       services: frServices,
       cta: frCta,
+      milestones: frMilestones,
     },
   },
 };

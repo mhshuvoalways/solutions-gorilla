@@ -1,0 +1,39 @@
+{
+  "title": "Jalons clés",
+  "subTitle": "Votre plateforme, véritablement, <br /> sous 4 semaines",
+  "des": "Vivez une transformation rapide en quelques semaines. Notre solution offre à vos ingénieurs des fonctionnalités en libre-service, élimine les obstacles au déploiement et réduit considérablement le temps nécessaire à la création de votre MVP.",
+  "items": [
+    {
+      "image": "/images/rocket.jpeg",
+      "title": "Semaine 1",
+      "subTitle": "Déploiement de Platform Foundation",
+      "description": "Nous déployons de manière transparente notre plateforme open source et cloud native dans votre infrastructure cloud existante. Cela fournit une base solide pour les avantages à venir."
+    },
+    {
+      "reverse": true,
+      "image": "/images/tree.jpeg",
+      "title": "Semaine 2",
+      "subTitle": "Formation sur les composants en libre-service",
+      "description": "Nous collaborons avec vos ingénieurs, en fournissant une formation pratique et des conseils dans le développement de modèles réutilisables. Cela permet à votre équipe de piloter l'innovation et la personnalisation futures."
+    },
+    {
+      "image": "/images/root.jpeg",
+      "title": "Semaine 3",
+      "subTitle": "Stabilisation et amélioration",
+      "description": "Après le déploiement initial, nous offrons une assistance et une collaboration continues. Cela garantit la stabilité de la plateforme tout en permettant à votre équipe de la personnaliser et de l'optimiser pour répondre à l'évolution des besoins de votre entreprise."
+    },
+    {
+      "reverse": true,
+      "image": "/images/business.jpeg",
+      "title": "Semaine 4",
+      "subTitle": "Enquête et commentaires",
+      "description": "Nous consacrons la dernière semaine à travailler avec les équipes pour commencer à utiliser le(s) premier(s) modèle(s) et à recueillir des enquêtes de données complètes et les commentaires des développeurs et des ingénieurs. Cette contribution servira de base pour comprendre les prochaines étapes. des itérations de la plateforme et assurez-vous qu'elle s'aligne pleinement sur les besoins de vos ingénieurs et de votre entreprise."
+    },
+    {
+      "image": "/images/path.jpeg",
+      "title": "Semaine 5+",
+      "subTitle": "Votre voyage commence vraiment",
+      "description": "À partir de là, vous êtes entièrement propriétaire de votre plateforme et votre parcours d'amélioration continue et d'innovation commence véritablement. Nous restons là pour poursuivre le transfert de connaissances et faire fonctionner les choses si nécessaire. Nous sommes disponibles pour vous aider en tant que conseiller de confiance et pour discuter amélioration et intégration."
+    }
+  ]
+}

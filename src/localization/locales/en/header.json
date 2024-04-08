@@ -1,0 +1,10 @@
+{
+  "menus": [
+    { "menu": "Our Process", "url": "/our-process" },
+    { "menu": "The Platform", "url": "/architecture" },
+    { "menu": "Pricing", "url": "/pricing" },
+    { "menu": "About Us", "url": "/about-us" },
+    { "menu": "Get a Trial", "url": "/contact-us" },
+    { "menu": "Book a Demo", "url": "/contact-us" }
+  ]
+}

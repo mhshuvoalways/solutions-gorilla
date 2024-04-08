@@ -1,0 +1,18 @@
+{
+  "title": "Build your dream Platform <br /> within weeks, Not Months.",
+  "subTitle": "Launch your platform journey in just 4 weeks!",
+  "including": "Our program delivers a comprehensive foundation including",
+  "items": [
+    "<p className='inline-block text-white font-semibold'>Self-service</p> capabilities",
+    "<p className='inline-block text-white font-semibold'>Infrastructure</p> setup",
+    "<p className='inline-block text-white font-semibold'>Observability</p> (metrics, logs, tracing, APM)",
+    "<p className='inline-block text-white font-semibold'>Security</p> tooling",
+    "<p className='inline-block text-white font-semibold'>Continuous delivery</p>",
+    "Customizable <p className='inline-block text-white font-semibold'>templates</p>",
+    "And more"
+  ],
+  "btn": {
+    "first": "Check out our 4 Weeks Program",
+    "second": "Discover the Architecture"
+  }
+}

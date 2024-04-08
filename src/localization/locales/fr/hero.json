@@ -1,0 +1,18 @@
+{
+  "title": "Créez la plateforme de vos rêves <br /> en quelques semaines, pas en quelques mois.",
+  "subTitle": "Lancez votre aventure sur la plateforme en seulement 4 semaines !",
+  "including": "Notre programme offre une base complète comprenant",
+  "items": [
+    "<p className='inline-block text-white font-semibold'>Capacités libre-service</p>",
+    "<p className='inline-block text-white font-semibold'>Configuration de l'infrastructure</p>",
+    "<p className='inline-block text-white font-semibold'>Observabilité</p> (métriques, journaux, traçage, APM)",
+    "Outils <p className='inline-block text-white font-semibold'>Sécurité</p>",
+    "<p className='inline-block text-white font-semibold'>Livraison continue</p>",
+    "<p className='inline-block text-white font-semibold'>modèles personnalisables</p>",
+    "Et plus"
+  ],
+  "btn": {
+    "first": "Découvrez notre programme de 4 semaines",
+    "second": "Découvrez l'architecture"
+  }
+}

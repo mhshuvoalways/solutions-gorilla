@@ -16,7 +16,7 @@ const Header = () => {
           <li key={index}>
             <Link
               className="cursor-pointer hover:bg-sheer-white py-2 px-4 rounded-full"
-              to="/our-process"
+              to={item.url}
             >
               {item.menu}
             </Link>

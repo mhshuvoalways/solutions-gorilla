@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Title from "../common/title";
 
-const index = () => {
+const Example = () => {
+  const { t } = useTranslation();
+  const example = t("example", { returnObjects: true });
+
   return (
     <div
       className={`card relative flex items-center flex-wrap lg:flex-nowrap justify-evenly gap-20 mt-28 overflow-hidden`}
@@ -29,16 +33,12 @@ const index = () => {
         />
       </div>
       <div className="w-full lg:w-5/12 z-10">
-        <Title
-          title={"Take full control over your Platform Engineering journey"}
-        />
-        <p className="text-xl">
-          With our free trial, you have nothing to lose, you can explore what we
-          have to offer without even spending a penny. Just reach out to get
-          started!
-        </p>
+        <Title title={example.title} />
+        <p className="text-xl">{example.des}</p>
         <div className="mt-5 flex items-center gap-2 text-white">
-          <button className="underline hover:text-off-white">Contact Us</button>
+          <button className="underline hover:text-off-white">
+            {example.btn}
+          </button>
           <i className="fa-solid fa-arrow-right"></i>
         </div>
       </div>
@@ -46,4 +46,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Example;

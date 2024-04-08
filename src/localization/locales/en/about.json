@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "title": "Platform, Portal, DevOps, DevX",
+      "description": "We hand over to your Team of Platform and DevOps Engineers a solid foundation that just works. <br/> <br/> This foundation is the pillar of the first template we will help you build. <br/><br/> Once the template is built, then it can be used for migrating your applications or to deploy new applications and projects. <br/><br/> We offer our customer and their customers, the developers, the most simplified and exciting experience for debugging and deploying applications in kubernetes.",
+      "btn": "Explore Our Simple Process"
+    },
+    {
+      "title": "Based on Cloud Native and Open-Source",
+      "description": "We believe in customer freedom. We opt-in a flexible approach that allow our foundation to be deployed on any cloud. <br/> <br/> We deploy and integrate 50+ Open Source and/or CNCF products. If you Opt-in for managed services, we also provide updates and support. <br/> <br/> We also offer cloud relocation and cloud migration in case you have a change of hearth.",
+      "btn": "Explore the platform"
+    }
+  ]
+}

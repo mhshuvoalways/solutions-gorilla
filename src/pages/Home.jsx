@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import ReactHelmet from "../app/ReactHelmet";
 import About from "../components/about";
 import Header from "../components/common/header";
@@ -9,6 +10,8 @@ import Services from "../components/services";
 import usePageTop from "../hook/usePageTop";
 
 const Home = () => {
+  const { t } = useTranslation();
+  const cta = t("cta", { returnObjects: true });
   usePageTop();
 
   return (
@@ -27,13 +30,7 @@ const Home = () => {
         <About />
         <Example />
         <Services />
-        <CTA
-          title={"We build, We train, you own"}
-          description={
-            "Reach out to our team and start owning your Platform and DevX today!"
-          }
-          className="text-center"
-        />
+        <CTA title={cta.title} description={cta.des} className="text-center" />
         <Footer />
       </div>
     </>

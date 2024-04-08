@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "title": "Plateforme, Portail, DevOps, DevX",
+      "description": "Nous remettons à votre équipe d'ingénieurs Plateforme et DevOps une base solide qui fonctionne. <br/> <br/> Cette base est le pilier du premier modèle que nous vous aiderons à construire. <br/> <br/> Une fois le modèle construit, il peut être utilisé pour migrer vos applications ou pour déployer de nouvelles applications et projets. <br/><br/> Nous offrons à nos clients et à leurs clients, les développeurs, la solution la plus simplifiée et la plus simple. expérience passionnante pour le débogage et le déploiement d'applications dans Kubernetes.",
+      "btn": "Explorez notre processus simple"
+    },
+    {
+      "title": "Basé sur Cloud Native et Open-Source",
+      "description": "Nous croyons en la liberté du client. Nous optons pour une approche flexible qui permet à notre fondation d'être déployée sur n'importe quel cloud. <br/> <br/> Nous déployons et intégrons plus de 50 produits Open Source et/ou CNCF . Si vous optez pour les services gérés, nous fournissons également des mises à jour et une assistance. <br/> <br/> Nous proposons également la relocalisation et la migration vers le cloud au cas où vous changeriez de foyer.",
+      "btn": "Explorez la plateforme"
+    }
+  ]
+}

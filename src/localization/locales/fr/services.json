@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "img": "head-icon.svg",
+      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+    },
+    {
+      "img": "bar-icon.svg",
+      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+    },
+    {
+      "img": "light-icon.svg",
+      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+    }
+  ]
+}

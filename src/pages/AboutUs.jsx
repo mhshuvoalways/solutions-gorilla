@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import ReactHelmet from "../app/ReactHelmet";
 import Header from "../components/common/header";
 import CTA from "../components/cta";
@@ -8,6 +9,9 @@ import usePageTop from "../hook/usePageTop";
 
 const OurProcess = () => {
   usePageTop();
+
+  const { t } = useTranslation();
+  const cta = t("cta", { returnObjects: true });
 
   return (
     <>
@@ -24,8 +28,8 @@ const OurProcess = () => {
         <Mission />
         <Team />
         <CTA
-          title={"Get in touch"}
-          description={`We value your questions, feedback, and comments and are always welcome. If you require any assistance or information about our platform or services, please don't hesitate to reach out to our team.`}
+          title={cta.btn}
+          description={cta.about}
           className={"w-full sm:w-7/12"}
         />
         <Footer />

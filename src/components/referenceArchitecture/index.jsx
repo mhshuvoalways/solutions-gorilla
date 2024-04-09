@@ -1,8 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 import ButtonArrow from "../common/buttons/ButtonArrow";
 import Title from "../common/title";
 
-const index = () => {
+const ReferArct = () => {
+  const { t } = useTranslation();
+  const referact = t("referact", { returnObjects: true });
+
   return (
     <div className={`card relative overflow-hidden`}>
       <div
@@ -22,29 +26,22 @@ const index = () => {
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
       <div className="relative text-center">
-        <Title title="Our Technology Stack" className={"mb-0"} />
-        <Title
-          title="Powered by 50+ CNCF Projects"
-          className="text-4xl -tracking-wide"
-        />
-        <p className="text-2xl text-white">
-          Everything you need to hit the ground running
-        </p>
+        <Title title={referact.title} className={"mb-0"} />
+        <Title title={referact.subTitle} className="text-4xl -tracking-wide" />
+        <p className="text-2xl text-white">{referact.des}</p>
         <p className="mt-10 text-left w-full sm:w-10/12 lg:w-4/12 mx-auto">
-          {`Partner with us to unlock the power of the CNCF ecosystem. Our team's
-          deep experience ensures you get the best in cloud-native scalability,
-          security, and innovation.`}
+          {referact.subDes}
         </p>
         <img
           src="/images/reference-architecture.png"
           className="mt-28 w-full sm:w-9/12 mx-auto"
         />
         <Link to="provides" spy={true} smooth={true}>
-          <ButtonArrow title={"Features"} />
+          <ButtonArrow title={referact.btn} />
         </Link>
       </div>
     </div>
   );
 };
 
-export default index;
+export default ReferArct;

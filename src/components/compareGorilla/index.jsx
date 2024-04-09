@@ -1,7 +1,12 @@
+import parse from "html-react-parser";
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 import Title from "../common/title";
 
-const index = () => {
+const CompareGorilla = () => {
+  const { t } = useTranslation();
+  const comparegorilla = t("comparegorilla", { returnObjects: true });
+
   return (
     <div className={`card relative overflow-hidden mt-28`}>
       <div
@@ -21,11 +26,9 @@ const index = () => {
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
       <div className="relative text-center">
-        <Title title={"Compare Gorilla"}></Title>
+        <Title title={comparegorilla.title}></Title>
         <Fade direction="up">
-          <p className="text-2xl">
-            Streamline your Platform at a fraction of the time.
-          </p>
+          <p className="text-2xl">{comparegorilla.subTitle}</p>
         </Fade>
         <div className="flex flex-wrap lg:flex-nowrap items-center gap-6 w-full lg:w-10/12 mx-auto mt-20">
           <img src="/images/logo.svg" className="w-10/12 lg:w-3/12 mx-auto" />
@@ -39,26 +42,30 @@ const index = () => {
                 }}
               />
             </div>
-            <p className="font-semibold text-nowrap">1 Month</p>
+            <p className="font-semibold text-nowrap">
+              {comparegorilla.additional[0]}
+            </p>
           </div>
         </div>
         <div className="block lg:flex mt-7 justify-center items-center gap-2 lg:gap-6 text-lg font-semibold text-white text-nowrap">
-          <p className="text-start lg:text-center">Without Us</p>
+          <p className="text-start lg:text-center">
+            {comparegorilla.additional[1]}
+          </p>
           <div className="flex lg:hidden items-center justify-center gap-2 w-full">
             <p className="bg-sheer-white rounded h-6 w-full mx-auto" />
-            <p>4 to 12 Months*</p>
+            <p>{comparegorilla.additional[2]}</p>
           </div>
           <p className="bg-sheer-white rounded h-6 w-full lg:w-4/12 hidden lg:block" />
-          <p className="hidden lg:block hover:">4 to 12 Months*</p>
+          <p className="hidden lg:block hover:">
+            {comparegorilla.additional[2]}
+          </p>
         </div>
         <p className="mt-20 text-lg italic">
-          *The time required to build a platform is highly variable. <br />
-          Factors such as complexity, team size, and available resources
-          significantly impact your platform development time.
+          {parse(comparegorilla.description)}
         </p>
       </div>
     </div>
   );
 };
 
-export default index;
+export default CompareGorilla;

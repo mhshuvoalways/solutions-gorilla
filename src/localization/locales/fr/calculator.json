@@ -1,0 +1,66 @@
+{
+  "title": "Calculateur TCO",
+  "chart": {
+    "wu": "Avec nous",
+    "wou": "Sans nous",
+    "calculate": [
+      "moins cher et",
+      "plus court à construire si <br /> vous construisez avec nous!"
+    ],
+    "des": "Le calculateur de TCO de Gorilla Solutions est uniquement un outil d'estimation. Les résultats sont approximatifs et ne doivent pas être utilisés uniquement pour la prise de décision. Gorilla Solutions n'assume aucune responsabilité légale quant à l'exactitude des calculs ou à leur impact sur vos décisions commerciales."
+  },
+  "items": [
+    {
+      "id": 1,
+      "item": "Avion du développeur",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 2,
+      "item": "Plan d'intégration et de livraison",
+      "bg": false,
+      "isChecked": true
+    },
+    {
+      "id": 3,
+      "item": "Plan de surveillance et d'enregistrement",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 4,
+      "item": "Avion de sécurité",
+      "bg": false,
+      "isChecked": true
+    },
+    {
+      "id": 5,
+      "item": "Avion de service",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 6,
+      "item": "Salaire moyen d'ingénieur / an",
+      "bg": false,
+      "value": 150000,
+      "placeholder": 150000
+    },
+    {
+      "id": 7,
+      "item": "Durée estimée en semaines pour le construire vous-même ?",
+      "bg": true,
+      "value": 20,
+      "placeholder": 20
+    },
+    {
+      "id": 8,
+      "item": "Combien de ressources affectées à temps plein pour vous construire ?",
+      "bg": false,
+      "value": 4,
+      "placeholder": 4
+    }
+  ],
+  "btn": "Explorer les tarifs"
+}

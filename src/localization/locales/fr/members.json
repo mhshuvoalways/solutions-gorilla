@@ -1,0 +1,23 @@
+{
+  "title": "Notre équipe",
+  "items": [
+    {
+      "id": 1,
+      "name": "Félix Germain",
+      "jobTitle": "FONDATRICE",
+      "description": "Félix apporte plus de 10 ans d’expérience en développement et architecture de logiciels. Leader accompli avec une solide expérience en développement et une connaissance approfondie des solutions Cloud et Cloud Native. Félix s'engage à réaliser des transformations transparentes de la plateforme tout en favorisant l'innovation.",
+      "img": "member1.png",
+      "reverse": false,
+      "linkedin": "https://www.linkedin.com/in/solutions-gorilla-fgermain/"
+    },
+    {
+      "id": 2,
+      "name": "Alexandre Proulx",
+      "jobTitle": "FONDATRICE",
+      "description": "Architecte de plateforme expérimenté spécialisé dans les technologies cloud natives. Habile à créer des plates-formes robustes et évolutives et à favoriser des expériences de développement transparentes avec des outils tels que Kubernetes et Backstage. Passionné par la conduite de l’innovation et la rationalisation des flux de travail complexes.",
+      "img": "member2.png",
+      "reverse": true,
+      "linkedin": "https://www.linkedin.com/in/solutions-gorilla-aproulx/"
+    }
+  ]
+}

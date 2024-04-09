@@ -1,0 +1,75 @@
+{
+  "title": "Transparent Pricing",
+  "additional": "Don't settle for less <br/> Get the perfect plan for your company.",
+  "btn": "Contact Us",
+  "items": [
+    {
+      "id": 1,
+      "title": "30 days Trial",
+      "price": "Free",
+      "timeline": "Limited Time Only*",
+      "description": [
+        "The fastest way to get started with platform engineering without any risk and delay.",
+        "Start your Cloud Native journey now!"
+      ],
+      "includes": [
+        "The Gorilla Platform",
+        "Deployed in our infrastructure**",
+        "Self-Service Built-in Templates"
+      ],
+      "bottomText": [
+        "Subject to change without notice",
+        "* We offer data migration, in any cloud, if you purchase a plan later."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Single Gorilla",
+      "price": "$50,000",
+      "timeline": "one time fee",
+      "description": [
+        "We deploy the platform in the  cloud of your choice, we also train your team.",
+        "Then your team is responsible for taking care of the infrastructure and the upgrades."
+      ],
+      "includes": [
+        "Robust and reliable updates",
+        "Deployed in the cloud of your choice",
+        "Walkthrought of your first template(s) creation",
+        "Training with Platform Survey and metrics"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Custom Gorilla",
+      "price": "$300/h*",
+      "timeline": "Contact Us",
+      "description": [
+        "We adapt the Gorilla platform to precisely match your specifications, then we deploy it.",
+        "Partner with us for expert platform engineering advice – we'll help you refine your design and explore new possibilities."
+      ],
+      "includes": [
+        "A Custom Gorilla Platform",
+        "Deployed in the cloud of your choice",
+        "Walkthrought of your first template(s) creation",
+        "Training with Platform Survey and metrics"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Managed Gorilla",
+      "price": "$3000",
+      "timeline": "per month, for 1 Year",
+      "description": [
+        "Never miss the latest features or vulnerability fix.",
+        "We keep the platform up to date with our latest development.",
+        "We proactively monitor your platform and provide expert support whenever needed."
+      ],
+      "includes": [
+        "Robust and Reliable Updates",
+        "Latest Features",
+        "Security Updates",
+        "Support"
+      ]
+    }
+  ]
+}

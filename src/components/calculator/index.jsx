@@ -1,4 +1,6 @@
+import parse from "html-react-parser";
 import { useCallback, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 import ButtonArrow from "../common/buttons/ButtonArrow";
 import Title from "../common/title";
@@ -7,66 +9,20 @@ import InputCard from "./InputCard";
 import InputItem from "./InputItem";
 import ProgressBar from "./ProgressBar";
 
-const items = [
-  {
-    id: 1,
-    item: "Developer Plane",
-    bg: true,
-    isChecked: true,
-  },
-  {
-    id: 2,
-    item: "Integration & Delivery Plane",
-    bg: false,
-    isChecked: true,
-  },
-  {
-    id: 3,
-    item: "Monitoring and Logging Plane",
-    bg: true,
-    isChecked: true,
-  },
-  {
-    id: 4,
-    item: "Security Plane",
-    bg: false,
-    isChecked: true,
-  },
-  {
-    id: 5,
-    item: "Service Plane",
-    bg: true,
-    isChecked: true,
-  },
-  {
-    id: 6,
-    item: "Avg. Engineer Salary / year",
-    bg: false,
-    value: 150000,
-    placeholder: 150000,
-  },
-  {
-    id: 7,
-    item: "Estimated time in weeks to build it yourself?",
-    bg: true,
-    value: 20,
-    placeholder: 20,
-  },
-  {
-    id: 8,
-    item: "How many Resources assigned full time to built yourself?",
-    bg: false,
-    value: 4,
-    placeholder: 4,
-  },
-];
-
 const Calculator = () => {
+  const { t } = useTranslation();
+  const calculator = t("calculator", { returnObjects: true });
+
   const [progressWithUs, setProgressWithUs] = useState(0);
   const [progressWithOutUs, setProgressWithOutUs] = useState(0);
   const [progressWithUsValue, setProgressWithUsValue] = useState(0);
   const [progressWithOutUsValue, setProgressWithOutUsValue] = useState(0);
-  const [allItems, setAllItems] = useState(items);
+  const [allItems, setAllItems] = useState([]);
+
+  useEffect(() => {
+    const calculator = t("calculator", { returnObjects: true });
+    setAllItems(calculator.items);
+  }, [t]);
 
   const checkHandler = (id) => {
     const temp = [...allItems];
@@ -127,7 +83,7 @@ const Calculator = () => {
   useEffect(() => {
     withUsCalculator();
     withOutUsCalculator();
-  }, [withUsCalculator, withOutUsCalculator]);
+  }, [withUsCalculator, withOutUsCalculator, calculator]);
 
   return (
     <div className={`card relative overflow-hidden`}>
@@ -154,33 +110,31 @@ const Calculator = () => {
               <div className="space-y-5">
                 <p className="text-green-600">{progressWithUsValue}$</p>
                 <ProgressBar progressHeight={progressWithUs} />
-                <p className="text-white font-semibold text-lg">With us</p>
+                <p className="text-white font-semibold text-lg">
+                  {calculator.chart.wu}
+                </p>
               </div>
               <div className="space-y-5">
                 <p className="text-red-600">{progressWithOutUsValue}$</p>
                 <ProgressBar progressHeight={progressWithOutUs} />
-                <p className="text-white font-semibold text-lg">Without us</p>
+                <p className="text-white font-semibold text-lg">
+                  {calculator.chart.wou}
+                </p>
               </div>
             </div>
             <div className="mt-10">
               <p className="text-2xl text-white tracking-widest font-semibold leading-normal">
-                {(progressWithOutUsValue / progressWithUsValue).toFixed(1)}x
-                less expensive and <br />
-                {((allItems[6].value * allItems[7].value) / 4).toFixed(1)}x
-                shorter to build if <br />
-                you build with us!
+                {(progressWithOutUsValue / progressWithUsValue).toFixed(1)}x{" "}
+                {calculator.chart.calculate[0]} <br />
+                {allItems.length &&
+                  ((allItems[6].value * allItems[7].value) / 4).toFixed(1)}
+                x {parse(calculator.chart.calculate[1])}
               </p>
-              <small>
-                The Gorilla Solutions TCO Calculator is an estimation tool only.
-                Results are approximate and should not be solely relied upon for
-                decision-making. Gorilla Solutions assumes no legal liability
-                for the accuracy of the calculations or their impact on your
-                business decisions.
-              </small>
+              <small>{calculator.chart.des}</small>
             </div>
           </div>
           <div className="w-full lg:w-4/12">
-            <Title title="TCO Calculator" />
+            <Title title={calculator.title} />
             {allItems.map((item) => (
               <InputCard key={item.id} item={item.item} bg={item.bg}>
                 {item.placeholder ? (
@@ -202,7 +156,7 @@ const Calculator = () => {
           </div>
         </div>
         <Link to="pricing" spy={true} smooth={true}>
-          <ButtonArrow title={"Explore Pricing"} />
+          <ButtonArrow title={calculator.btn} />
         </Link>
       </div>
     </div>

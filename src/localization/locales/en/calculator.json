@@ -1,0 +1,66 @@
+{
+  "title": "TCO Calculator",
+  "chart": {
+    "wu": "With us",
+    "wou": "Without us",
+    "calculate": [
+      "less expensive and",
+      "shorter to build if <br /> you build with us!"
+    ],
+    "des": "The Gorilla Solutions TCO Calculator is an estimation tool only. Results are approximate and should not be solely relied upon for decision-making. Gorilla Solutions assumes no legal liability for the accuracy of the calculations or their impact on your business decisions."
+  },
+  "items": [
+    {
+      "id": 1,
+      "item": "Developer Plane",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 2,
+      "item": "Integration & Delivery Plane",
+      "bg": false,
+      "isChecked": true
+    },
+    {
+      "id": 3,
+      "item": "Monitoring and Logging Plane",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 4,
+      "item": "Security Plane",
+      "bg": false,
+      "isChecked": true
+    },
+    {
+      "id": 5,
+      "item": "Service Plane",
+      "bg": true,
+      "isChecked": true
+    },
+    {
+      "id": 6,
+      "item": "Avg. Engineer Salary / year",
+      "bg": false,
+      "value": 150000,
+      "placeholder": 150000
+    },
+    {
+      "id": 7,
+      "item": "Estimated time in weeks to build it yourself?",
+      "bg": true,
+      "value": 20,
+      "placeholder": 20
+    },
+    {
+      "id": 8,
+      "item": "How many Resources assigned full time to built yourself?",
+      "bg": false,
+      "value": 4,
+      "placeholder": 4
+    }
+  ],
+  "btn": "Explore Pricing"
+}

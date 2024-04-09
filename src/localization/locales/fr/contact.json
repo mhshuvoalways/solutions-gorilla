@@ -1,0 +1,31 @@
+{
+  "title": "Racontez-nous votre histoire ou demandez-nous n'importe quoi !",
+  "form": {
+    "yourName": {
+      "placeholder": "Votre nom",
+      "name": "yourName"
+    },
+    "companyName": {
+      "placeholder": "Nom de la société",
+      "name": "companyName"
+    },
+    "email": {
+      "placeholder": "Adresse email",
+      "name": "email"
+    },
+    "select": {
+      "options": [
+        "Choisir le cas d'utilisation",
+        "Demander une démo",
+        "Obtenez un essai",
+        "Informations / Questions"
+      ],
+      "name": "select"
+    },
+    "textarea": {
+      "placeholder": "Quelque chose que vous aimeriez savoir?",
+      "name": "textarea"
+    },
+    "btn": "Envoyer"
+  }
+}

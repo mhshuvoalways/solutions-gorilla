@@ -1,31 +1,26 @@
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Title from "../common/title";
 
-const index = () => {
+const Trial = () => {
+  const { t } = useTranslation();
+  const trial = t("trial", { returnObjects: true });
+
   return (
     <div className="bg-rich-black mt-20 card text-center">
       <div className="w-full sm:w-7/12 mx-auto space-y-10">
-        <Title title="Develop, Integrate, Observe" />
+        <Title title={trial.title} />
         <Fade direction="up">
-          <p className="text-2xl">
-            Streamline your approach to development throughout the entire
-            Platform pipeline.
-          </p>
+          <p className="text-2xl">{trial.subTitle}</p>
         </Fade>
         <Link to={"/contact-us"}>
-          <button className="btn mt-10">Get a Trial</button>
+          <button className="btn mt-10">{trial.btn}</button>
         </Link>
-        <p className="text-gray-500 text-sm">
-          {`By installing or using the software, you acknowledge and agree to be
-        bound by the terms and conditions of the EULA. The software is provided
-        "as is" without any warranties, express or implied, including but not
-        limited to the warranties of merchantability, fitness for a particular
-        purpose, and non-infringement.`}
-        </p>
+        <p className="text-gray-500 text-sm">{trial.des}</p>
       </div>
     </div>
   );
 };
 
-export default index;
+export default Trial;

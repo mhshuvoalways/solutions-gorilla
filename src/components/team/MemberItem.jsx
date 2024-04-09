@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 
-const MemberItem = ({ reverse, image, name, description, linkedin }) => {
+const MemberItem = ({
+  reverse,
+  image,
+  name,
+  jobTitle,
+  description,
+  linkedin,
+}) => {
   return (
     <div
       className={`flex items-center md:items-end justify-center flex-wrap gap-10 mt-20 ${
@@ -15,7 +22,7 @@ const MemberItem = ({ reverse, image, name, description, linkedin }) => {
             <img src="/icons/linkedin.svg" />
           </Link>
         </div>
-        <p className="mt-5 text-sm">FOUNDER</p>
+        <p className="mt-5 text-sm">{jobTitle}</p>
         <p className="text-lg mt-10">{description}</p>
       </div>
     </div>

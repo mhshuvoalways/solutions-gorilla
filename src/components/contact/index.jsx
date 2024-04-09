@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
 import Title from "../common/title";
 
-const index = () => {
+const Contact = () => {
+  const { t } = useTranslation();
+  const contact = t("contact", { returnObjects: true });
+
   return (
     <div className={`card relative overflow-hidden`}>
       <div
@@ -20,44 +24,44 @@ const index = () => {
         className="w-[60vw] h-[60vw] mix-blend-overlay block absolute"
       />
       <div className="flex flex-wrap md:flex-nowrap items-center gap-6 relative">
-        <Title
-          title={"Tell us your story or ask us anything!"}
-          className={"w-full md:w-6/12"}
-        />
+        <Title title={contact.title} className={"w-full md:w-6/12"} />
         <div className="w-full md:w-6/12 space-y-8">
           <input
             type="text"
             className="bg-sheer-white w-full rounded-lg py-3 px-5 font-semibold text-lg outline-0 focus:ring-1 transition-shadow text-white"
-            placeholder="Your Name"
-            name="yourName"
+            placeholder={contact.form.yourName.placeholder}
+            name={contact.form.yourName.name}
           />
           <input
             type="text"
             className="bg-sheer-white w-full rounded-lg py-3 px-5 font-semibold text-lg outline-0 focus:ring-1 transition-shadow text-white"
-            placeholder="Company Name"
-            name="companyName"
+            placeholder={contact.form.companyName.placeholder}
+            name={contact.form.companyName.name}
           />
           <input
             type="email"
             className="bg-sheer-white w-full rounded-lg py-3 px-5 font-semibold text-lg outline-0 focus:ring-1 transition-shadow text-white"
-            placeholder="Email Address"
-            name="email"
+            placeholder={contact.form.email.placeholder}
+            name={contact.form.email.name}
           />
           <select
             className="bg-sheer-white w-full rounded-lg py-3 px-5 font-semibold text-lg outline-0 focus:ring-1 transition-shadow text-white"
             required
+            name={contact.form.select.name}
           >
-            <option className="bg-rich-black">Choose use case</option>
-            <option className="bg-rich-black">Request a Demo</option>
-            <option className="bg-rich-black">Get a trial</option>
-            <option className="bg-rich-black">Informations / Questions</option>
+            {contact.form.select.options.map((op, index) => (
+              <option className="bg-rich-black" key={index}>
+                {op}
+              </option>
+            ))}
           </select>
           <textarea
             className="bg-sheer-white w-full rounded-lg py-3 px-5 font-semibold text-lg outline-0 focus:ring-1 transition-shadow text-white h-52"
-            placeholder="Anything you'd like to know?"
+            placeholder={contact.form.textarea.placeholder}
+            name={contact.form.textarea.name}
           />
           <button className="bg-white rounded-full w-full p-2 text-black font-bold text-lg hover:bg-sheer-white hover:text-white transition-all">
-            Send
+            {contact.form.btn}
           </button>
         </div>
       </div>
@@ -65,4 +69,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Contact;

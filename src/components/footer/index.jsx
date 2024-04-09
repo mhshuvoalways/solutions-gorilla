@@ -18,7 +18,7 @@ const Footer = () => {
       </p>
       <DropDown
         items={[{ menu: "English" }, { menu: "French" }]}
-        button={"fa-solid fa-flag"}
+        button={"fa-solid fa-globe"}
         bgColor="white"
         onClick={changeLanguage}
       />

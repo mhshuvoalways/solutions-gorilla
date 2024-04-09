@@ -1,0 +1,73 @@
+{
+  "title": "Tarifs transparents",
+  "additional": "Ne vous contentez pas de moins <br/> Obtenez le plan parfait pour votre entreprise.",
+  "btn": "Contactez-nous",
+  "items": [
+    {
+      "id": 1,
+      "title": "Essai de 30 jours",
+      "price": "Gratuit",
+      "timeline": "Durée limitée seulement*",
+      "description": [
+        "Le moyen le plus rapide de démarrer l'ingénierie de plate-forme sans aucun risque ni délai.",
+        "Commencez votre aventure Cloud Native maintenant !"
+      ],
+      "includes": [
+        "La Plateforme Gorille",
+        "Déployé dans notre infrastructure**",
+        "Modèles intégrés en libre-service"
+      ],
+      "bottomText": [
+        "Sous réserve de modifications sans préavis",
+        "* Nous proposons la migration des données, dans n'importe quel cloud, si vous achetez un forfait ultérieurement."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gorille unique",
+      "price": "$50000",
+      "timeline": "frais uniques",
+      "description": [
+        "Nous déployons la plateforme dans le cloud de votre choix, nous formons également votre équipe.",
+        "Ensuite, votre équipe est chargée de s'occuper de l'infrastructure et des mises à niveau."
+      ],
+      "includes": [
+        "Mises à jour robustes et fiables",
+        "Déployé dans le cloud de votre choix",
+        "Procédure pas à pas de la création de votre (vos) premier(s) modèle(s), Formation avec Platform Survey et métriques"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gorille personnalisé",
+      "price": "$300/h*",
+      "timeline": "Contactez-nous",
+      "description": [
+        "Nous adaptons la plateforme Gorilla pour qu'elle corresponde précisément à votre cahier des charges, puis nous la déployons.",
+        "Faites équipe avec nous pour obtenir des conseils d'experts en ingénierie de plate-forme : nous vous aiderons à affiner votre conception et à explorer de nouvelles possibilités."
+      ],
+      "includes": [
+        "Une plateforme Gorilla personnalisée",
+        "Déployé dans le cloud de votre choix",
+        "Procédure pas à pas de la création de votre (vos) premier(s) modèle(s), Formation avec Platform Survey et métriques"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Gorille géré",
+      "price": "$3000",
+      "timeline": "par mois, pendant 1 an",
+      "description": [
+        "Ne manquez jamais les dernières fonctionnalités ou correctifs de vulnérabilités.",
+        "Nous maintenons la plateforme à jour avec nos derniers développements.",
+        "Nous surveillons votre plateforme de manière proactive et fournissons une assistance experte chaque fois que nécessaire."
+      ],
+      "includes": [
+        "Mises à jour robustes et fiables",
+        "Dernières fonctionnalités",
+        "Mises à jour de sécurité",
+        "Soutien"
+      ]
+    }
+  ]
+}

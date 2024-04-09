@@ -1,0 +1,31 @@
+{
+  "title": "Tell us your story or ask us anything!",
+  "form": {
+    "yourName": {
+      "placeholder": "Your Name",
+      "name": "yourName"
+    },
+    "companyName": {
+      "placeholder": "Company Name",
+      "name": "companyName"
+    },
+    "email": {
+      "placeholder": "Email Address",
+      "name": "email"
+    },
+    "select": {
+      "options": [
+        "Choose use case",
+        "Request a Demo",
+        "Get a trial",
+        "Informations / Questions"
+      ],
+      "name": "select"
+    },
+    "textarea": {
+      "placeholder": "Anything you'd like to know?",
+      "name": "textarea"
+    },
+    "btn": "Send"
+  }
+}

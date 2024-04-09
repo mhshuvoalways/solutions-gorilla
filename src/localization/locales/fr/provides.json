@@ -1,0 +1,225 @@
+{
+  "title": "Construit sur Open-Source pour plus de flexibilité",
+  "items": [
+    {
+      "id": 1,
+      "icon": "/icons/bar-icon.svg",
+      "title": "Plan de contrôle du développeur",
+      "description": {
+        "title": " Rationaliser le flux de travail de développement ",
+        "details": [
+          {
+            "topic": "Automatisez votre processus de publication",
+            "more": " Rationalisez les déploiements et déploiements complexes, avec des contrôles de sécurité intégrés. "
+          },
+          {
+            "topic": "Gérer les environnements en toute simplicité",
+            "more": "Gérez de manière transparente plusieurs environnements pour les tests, la préparation et la production."
+          },
+          {
+            "topic": "‍Stocker les paquets en toute sécurité",
+            "more": "Protégez vos logiciels dans un référentiel hautement sécurisé."
+          },
+          {
+            "topic": "Tester et atténuer les risques",
+            "more": "Expérimenter de nouvelles fonctionnalités et modifications, en utilisant des mécanismes de test simples pour réduire les risques"
+          },
+          {
+            "topic": "‍Annulations instantanées",
+            "more": "Si des problèmes surviennent, revenez rapidement à une version de travail précédente en quelques secondes"
+          }
+        ]
+      },
+      "sliderImages": [
+        "kubernetes.svg",
+        "backstage.svg",
+        "vscode.svg",
+        "mirrord.svg",
+        "github.svg",
+        "gitlab.svg",
+        "gitea.svg",
+        "gitea.svg",
+        "bitbucket.svg",
+        "mattermost.svg",
+        "crossplane.svg"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "/icons/message.svg",
+      "title": "Plan d'intégration et de livraison",
+      "description": {
+        "title": "Déployez en toute confiance en production",
+        "details": [
+          {
+            "topic": "Automatisez votre processus de publication",
+            "more": " Rationalisez les déploiements et déploiements complexes, avec des contrôles de sécurité intégrés. "
+          },
+          {
+            "topic": "Gérer les environnements en toute simplicité",
+            "more": "Gérez de manière transparente plusieurs environnements pour les tests, la préparation et la production."
+          },
+          {
+            "topic": "‍Stocker les paquets en toute sécurité",
+            "more": "Protégez vos logiciels dans un référentiel hautement sécurisé."
+          },
+          {
+            "topic": "Tester et atténuer les risques",
+            "more": "Expérimenter de nouvelles fonctionnalités et modifications, en utilisant des mécanismes de test simples pour réduire les risques"
+          },
+          {
+            "topic": "‍Annulations instantanées",
+            "more": "Si des problèmes surviennent, revenez rapidement à une version de travail précédente en quelques secondes"
+          }
+        ]
+      },
+      "sliderImages": [
+        "argo.svg",
+        "crossplane.svg",
+        "harbor.svg",
+        "nexus-repository.svg",
+        "keptn.svg",
+        "github.svg",
+        "gitlab.svg",
+        "open-feature.svg",
+        "go-feature-flag.svg",
+        "radius.svg",
+        "harbor.svg"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "/icons/head-icon.svg",
+      "title": "Avion d'observabilité",
+      "description": {
+        "title": "Observer et alerter sur les choses qui comptent",
+        "details": [
+          {
+            "topic": "Obtenez une vue à vol d'oiseau",
+            "more": "Visualisez tout avec des tableaux de bord personnalisables et identifiez rapidement les problèmes."
+          },
+          {
+            "topic": "Plongez dans les details",
+            "more": "Découvrez la cause première des problèmes grâce à un outil conçu pour enquêter et stocker les journaux système."
+          },
+          {
+            "topic": "‍Ne manquez jamais un battement",
+            "more": "Recevez des notifications instantanées en cas de problème afin de pouvoir réagir rapidement."
+          },
+          {
+            "topic": "Gérez la réponse de votre équipe",
+            "more": " Rationalisez votre processus d'astreinte pour une réponse plus rapide et plus coordonnée aux incidents. "
+          }
+        ]
+      },
+      "sliderImages": [
+        "grafana.svg",
+        "beyla.svg",
+        "k6.svg",
+        "grafana-oncall.svg",
+        "grafana-agent.svg",
+        "kiali.svg",
+        "open-telemetry.svg",
+        "opencost.svg",
+        "faro.svg",
+        "beyla.svg",
+        "loki.svg"
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "/icons/light-icon.svg",
+      "title": "Avion de sécurité",
+      "description": {
+        "title": "Protégez votre plateforme",
+        "details": [
+          {
+            "topic": "Protégez vos secrets",
+            "more": "Stockez et gérez en toute sécurité les données sensibles telles que les mots de passe, les clés API et les certificats."
+          },
+          {
+            "topic": "‍Contrôlez l'accès partout",
+            "more": "Établissez des règles précises pour déterminer qui peut accéder à quoi et dans quelles conditions. Garantissez la source : vérifiez l'intégrité des progiciels et des images de conteneurs, empêchant ainsi le code malveillant de pénétrer dans votre système."
+          },
+          {
+            "topic": "‍‍Appliquer les politiques",
+            "more": "Appliquez des règles de sécurité cohérentes dans toute votre infrastructure pour maintenir la conformité et réduire les risques."
+          },
+          {
+            "topic": "‍Gérer les identités des utilisateurs sans effort",
+            "more": "Rationnalisez les processus de connexion, activez l'authentification unique et garantissez une authentification robuste des utilisateurs."
+          },
+          {
+            "topic": "‍‍Automatiser la gestion des certificats",
+            "more": "Communications sécurisées et trafic sur le site Web sans les tracas liés à l'émission et au renouvellement manuels des certificats."
+          }
+        ]
+      },
+      "sliderImages": [
+        "kyverno_1.svg",
+        "notary.svg",
+        "aqua.svg",
+        "ory-hydra.svg",
+        "cert-manager.svg",
+        "cyberark-conjur.svg",
+        "external-secret.svg",
+        "hashicorp-vault.svg",
+        "open-unison.svg",
+        "ory-kratos.svg",
+        "ory-oathkeeper.svg",
+        "ory-keto.svg",
+        "trivy.svg"
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "/icons/light-icon.svg",
+      "title": "Plan de ressources",
+      "description": {
+        "title": "Plan de ressources : alimentation en libre-service",
+        "details": [
+          {
+            "topic": "Besoin d'une base de données puissante ?",
+            "more": "Provisionnez une base de données hautes performances en quelques clics, optimisée pour les environnements cloud."
+          },
+          {
+            "topic": "‍Connectez vos applications",
+            "more": "Créez un système de messagerie robuste pour rationaliser la communication entre les différentes parties de votre système."
+          },
+          {
+            "topic": "‍Réagissez aux événements en temps réel",
+            "more": "Déclenchez des actions et des flux de travail en fonction des événements qui se produisent dans votre infrastructure."
+          },
+          {
+            "topic": "Exposer les données à une vitesse fulgurante",
+            "more": "Créez instantanément des API pour accéder à vos données, permettant ainsi aux développeurs de créer des applications étonnantes"
+          },
+          {
+            "topic": "‍Déployez des bases de données n'importe où",
+            "more": "Exploitez la puissance des solutions de base de données en tant que service, vous donnant un accès instantané aux bases de données quand et où vous en avez besoin."
+          },
+          {
+            "topic": "‍‍Stockez les données de manière flexible",
+            "more": "Configurez un stockage évolutif défini par logiciel pour répondre à vos besoins croissants en données."
+          }
+        ]
+      },
+      "sliderImages": [
+        "ovh.svg",
+        "google-cloud.svg",
+        "azure.svg",
+        "aws.svg",
+        "cloud-events.svg",
+        "istio_1.svg",
+        "argo.svg",
+        "kubedb.svg",
+        "kube-mq.svg",
+        "object-storage-gem.svg",
+        "oracle.svg",
+        "digitalocean.svg",
+        "linode.svg",
+        "hasura.svg"
+      ]
+    }
+  ]
+}

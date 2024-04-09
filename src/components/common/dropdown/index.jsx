@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function DropDown({ items, button, onClick }) {
   return (
     <Menu as="div" className="relative inline-block text-left">
-      <Menu.Button>
+      <Menu.Button className={"text-2xl"}>
         <i className={button} />
       </Menu.Button>
       <Transition

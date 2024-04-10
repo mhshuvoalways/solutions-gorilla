@@ -5,7 +5,12 @@ const PriceItem = ({ item, includes }) => {
         item.id === 2 && "border-2 border-deep-purple"
       }`}
     >
-      <p className="text-lg text-white tracking-wider">{item.title}</p>
+      {item.pplr && (
+        <p className="bg-deep-purple absolute right-3 top-3 rounded-md px-2 py-[1px] text-sm">
+          {item.pplr}
+        </p>
+      )}
+      <p className="text-lg text-white tracking-wider mt-2">{item.title}</p>
       <p className={"mt-6 text-white text-3xl sm:text-5xl"}>{item.price}</p>
       <p className="font-semibold text-lg mt-1">{item.timeline}</p>
       <p

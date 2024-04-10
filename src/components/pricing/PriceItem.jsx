@@ -6,7 +6,7 @@ const PriceItem = ({ item, includes }) => {
       }`}
     >
       {item.pplr && (
-        <p className="bg-deep-purple absolute right-3 top-3 rounded-md px-2 py-[1px] text-sm">
+        <p className="bg-deep-purple absolute right-3 top-3 rounded-md px-2 py-[1px] text-sm text-white">
           {item.pplr}
         </p>
       )}

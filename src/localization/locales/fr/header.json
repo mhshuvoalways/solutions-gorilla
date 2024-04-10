@@ -1,10 +1,10 @@
 {
   "menus": [
-    { "menu": "Notre processus", "url": "/our-process" },
-    { "menu": "La plateforme", "url": "/architecture" },
-    { "menu": "Tarifs", "url": "/pricing" },
-    { "menu": "À propos de nous", "url": "/about-us" },
-    { "menu": "Obtenez un essai", "url": "/contact-us" },
-    { "menu": "Réservez une démo", "url": "/contact-us" }
+    { "menu": "Le Processus", "url": "/our-process" },
+    { "menu": "La Plateforme", "url": "/architecture" },
+    { "menu": "Prix", "url": "/pricing" },
+    { "menu": "À Propos", "url": "/about-us" },
+    { "menu": "Essai Gratuit", "url": "/contact-us" },
+    { "menu": "Voir la Démo", "url": "/contact-us" }
   ]
 }

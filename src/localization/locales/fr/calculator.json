@@ -1,66 +1,63 @@
 {
-  "title": "Calculateur TCO",
+  "title": "Calculateur CTP",
   "chart": {
-    "wu": "Avec nous",
-    "wou": "Sans nous",
-    "calculate": [
-      "moins cher et",
-      "plus court à construire si <br /> vous construisez avec nous!"
-    ],
-    "des": "Le calculateur de TCO de Gorilla Solutions est uniquement un outil d'estimation. Les résultats sont approximatifs et ne doivent pas être utilisés uniquement pour la prise de décision. Gorilla Solutions n'assume aucune responsabilité légale quant à l'exactitude des calculs ou à leur impact sur vos décisions commerciales."
+    "wu": "Avec Nous",
+    "wou": "Sans Nous",
+    "calculate": ["moins cher et", "plus rapide à construire avec nous !"],
+    "des": "Le calculateur Cout total de possession (CTP) Gorilla Solutions est un outil d'estimation uniquement. Les résultats sont approximatifs et ne doivent pas être utilisés exclusivement pour la prise de décision. Gorilla Solutions n'assume aucune responsabilité légale quant à l'exactitude des calculs ou à leur impact sur vos décisions commerciales."
   },
   "items": [
     {
       "id": 1,
-      "item": "Avion du développeur",
+      "item": "Interface Dévelopeur",
       "bg": true,
       "isChecked": true
     },
     {
       "id": 2,
-      "item": "Plan d'intégration et de livraison",
+      "item": "Interface d'intégration et de livraison",
       "bg": false,
       "isChecked": true
     },
     {
       "id": 3,
-      "item": "Plan de surveillance et d'enregistrement",
+      "item": "Interface d'observabilité",
       "bg": true,
       "isChecked": true
     },
     {
       "id": 4,
-      "item": "Avion de sécurité",
+      "item": "Interface de Sécurité",
       "bg": false,
       "isChecked": true
     },
     {
       "id": 5,
-      "item": "Avion de service",
+      "item": "Interface de Service",
       "bg": true,
       "isChecked": true
     },
     {
       "id": 6,
-      "item": "Salaire moyen d'ingénieur / an",
+      "item": "Salaire moyen de l'ingénieur / an",
       "bg": false,
       "value": 150000,
       "placeholder": 150000
     },
     {
       "id": 7,
-      "item": "Durée estimée en semaines pour le construire vous-même ?",
+      "item": "Temps estimé pour constuire votre plateforme à l'interne en semaines",
       "bg": true,
       "value": 20,
       "placeholder": 20
     },
     {
       "id": 8,
-      "item": "Combien de ressources affectées à temps plein pour vous construire ?",
+      "item": "Combien de resource travailleront temps plein sur le projet",
       "bg": false,
       "value": 4,
       "placeholder": 4
     }
   ],
-  "btn": "Explorer les tarifs"
+  "btn": "Explorer nos prix"
 }

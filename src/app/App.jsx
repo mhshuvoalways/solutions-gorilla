@@ -12,12 +12,13 @@ const App = () => {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    const defaultLanguage = navigator.language;
-    if (defaultLanguage === "fr-CA") {
-      i18n.changeLanguage("fr");
-    } else {
-      i18n.changeLanguage("en");
-    }
+    // const defaultLanguage = navigator.language;
+    // if (defaultLanguage.includes("fr")) {
+    //   i18n.changeLanguage("fr");
+    // } else {
+    //   i18n.changeLanguage("en");
+    // }
+    i18n.changeLanguage("fr");
   }, [i18n]);
 
   return (

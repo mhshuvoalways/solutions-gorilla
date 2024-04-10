@@ -1,18 +1,19 @@
 {
-  "title": "Créez la plateforme de vos rêves <br /> en quelques semaines, pas en quelques mois.",
-  "subTitle": "Lancez votre aventure sur la plateforme en seulement 4 semaines !",
-  "including": "Notre programme offre une base complète comprenant",
+  "title": "Construisez votre plateforme en quelques semaines, et non en quelques mois.",
+  "subTitle": "Lancez votre plateforme en seulement 4 semaines !",
+  "including": "Notre programme inclue une base exhaustive qui comprend",
   "items": [
-    "<p className='inline-block text-white font-semibold'>Capacités libre-service</p>",
-    "<p className='inline-block text-white font-semibold'>Configuration de l'infrastructure</p>",
-    "<p className='inline-block text-white font-semibold'>Observabilité</p> (métriques, journaux, traçage, APM)",
+    "Capacités de <p className='inline-block text-white font-semibold'>libre-service</p>",
+    "Mise en place de <p className='inline-block text-white font-semibold'>l'infrastructure</p>",
+    "Observabilité <p className='inline-block text-white font-semibold'>(métriques, journaux, traçage, APM)</p>",
     "Outils <p className='inline-block text-white font-semibold'>Sécurité</p>",
+    "Outils de <p className='inline-block text-white font-semibold'>sécurité</p>",
     "<p className='inline-block text-white font-semibold'>Livraison continue</p>",
-    "<p className='inline-block text-white font-semibold'>modèles personnalisables</p>",
-    "Et plus"
+    "<p className='inline-block text-white font-semibold'>Modèles personnalisables</p>",
+    "Et plus encore"
   ],
   "btn": {
-    "first": "Découvrez notre programme de 4 semaines",
-    "second": "Découvrez l'architecture"
+    "first": "Consultez notre programme en 4 semaines",
+    "second": "Découvrez l'Architecture"
   }
 }

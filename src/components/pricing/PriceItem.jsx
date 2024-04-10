@@ -1,7 +1,7 @@
-const PriceItem = ({ item }) => {
+const PriceItem = ({ item, includes }) => {
   return (
     <div
-      className={`bg-sheer-white rounded-3xl p-6 shadow-md ${
+      className={`bg-sheer-white rounded-3xl p-6 shadow-md relative ${
         item.id === 2 && "border-2 border-deep-purple"
       }`}
     >
@@ -22,7 +22,7 @@ const PriceItem = ({ item }) => {
         </p>
       ))}
       <div className="mt-16">
-        <p className="text-white tracking-wide">INCLUDES:</p>
+        <p className="text-white tracking-wide">{includes}:</p>
         <div className="mt-5 space-y-2">
           {item.includes.map((include, index) => (
             <div className="flex items-center gap-3" key={index}>

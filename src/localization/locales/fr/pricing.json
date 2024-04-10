@@ -1,72 +1,75 @@
 {
-  "title": "Tarifs transparents",
-  "additional": "Ne vous contentez pas de moins <br/> Obtenez le plan parfait pour votre entreprise.",
-  "btn": "Contactez-nous",
+  "title": "Prix Transparent",
+  "additional": "Optez pour la solution parfaite pour votre entreprise. <br/> Essayer notre plateforme gratuitement dès aujourd'hui!",
+  "btn": "Contactez-Nous",
+  "includes": "INCLUS",
   "items": [
     {
       "id": 1,
-      "title": "Essai de 30 jours",
+      "title": "Essaie de 30 jours",
       "price": "Gratuit",
-      "timeline": "Durée limitée seulement*",
+      "timeline": "Pour un temps limité*",
       "description": [
-        "Le moyen le plus rapide de démarrer l'ingénierie de plate-forme sans aucun risque ni délai.",
-        "Commencez votre aventure Cloud Native maintenant !"
+        "Le moyen le plus rapide de vous lancer dans l'ingénierie de plateforme sans risque ni délai.",
+        "Commencez votre aventure Cloud Native dès maintenant !"
       ],
       "includes": [
-        "La Plateforme Gorille",
-        "Déployé dans notre infrastructure**",
-        "Modèles intégrés en libre-service"
+        "La Plateforme Gorilla",
+        "Déployé dans notre infrastructure",
+        "Self-Service Built-in Templates"
       ],
       "bottomText": [
-        "Sous réserve de modifications sans préavis",
-        "* Nous proposons la migration des données, dans n'importe quel cloud, si vous achetez un forfait ultérieurement."
+        "Sujet à changement sans préavis",
+        "* We offer data migration, in any cloud, if you purchase a plan later."
       ]
     },
     {
       "id": 2,
-      "title": "Gorille unique",
-      "price": "$50000",
-      "timeline": "frais uniques",
+      "title": "La Plateforme Gorilla",
+      "price": "$50,000",
+      "timeline": "Frais unique",
       "description": [
-        "Nous déployons la plateforme dans le cloud de votre choix, nous formons également votre équipe.",
-        "Ensuite, votre équipe est chargée de s'occuper de l'infrastructure et des mises à niveau."
+        "Nous déployons la plateforme sur le cloud de votre choix et formons également votre équipe.",
+        "Votre équipe est ensuite responsable de la gestion de l'infrastructure et des mises à jour."
       ],
       "includes": [
         "Mises à jour robustes et fiables",
-        "Déployé dans le cloud de votre choix",
-        "Procédure pas à pas de la création de votre (vos) premier(s) modèle(s), Formation avec Platform Survey et métriques"
+        "Déployé sur le cloud de votre choix",
+        "Guide de création de vos premiers modèles en mode assisté",
+        "ormation sur les enquêtes et mesures de la plateforme"
       ]
     },
     {
       "id": 3,
-      "title": "Gorille personnalisé",
+      "title": "Consultation",
       "price": "$300/h*",
       "timeline": "Contactez-nous",
       "description": [
-        "Nous adaptons la plateforme Gorilla pour qu'elle corresponde précisément à votre cahier des charges, puis nous la déployons.",
-        "Faites équipe avec nous pour obtenir des conseils d'experts en ingénierie de plate-forme : nous vous aiderons à affiner votre conception et à explorer de nouvelles possibilités."
+        "Nous adaptons la plateforme Gorilla pour qu'elle corresponde précisément à vos spécifications, puis nous la déployons.",
+        "Devenez notre partenaire et bénéficiez de conseils d'experts en ingénierie de plateforme. Nous vous aiderons à affiner votre conception et à explorer de nouvelles possibilités."
       ],
       "includes": [
         "Une plateforme Gorilla personnalisée",
-        "Déployé dans le cloud de votre choix",
-        "Procédure pas à pas de la création de votre (vos) premier(s) modèle(s), Formation avec Platform Survey et métriques"
+        "Déployée sur le cloud de votre choix",
+        "Guide de création de vos premiers modèles en mode assisté",
+        "Formation sur les enquêtes et mesures de la plateforme"
       ]
     },
     {
       "id": 4,
-      "title": "Gorille géré",
+      "title": "Services gérés",
       "price": "$3000",
-      "timeline": "par mois, pendant 1 an",
+      "timeline": "par mois pour 1 an",
       "description": [
-        "Ne manquez jamais les dernières fonctionnalités ou correctifs de vulnérabilités.",
-        "Nous maintenons la plateforme à jour avec nos derniers développements.",
-        "Nous surveillons votre plateforme de manière proactive et fournissons une assistance experte chaque fois que nécessaire."
+        "Ne manquez jamais les dernières fonctionnalités ou les derniers correctifs de vulnérabilité.",
+        "Nous maintenons la plateforme à jour grâce à nos développements les plus récents.",
+        "Nous surveillons votre plateforme de manière proactive et fournissons un support expert dès que vous en avez besoin."
       ],
       "includes": [
         "Mises à jour robustes et fiables",
         "Dernières fonctionnalités",
-        "Mises à jour de sécurité",
-        "Soutien"
+        "Mises à jour de sécuritépen_spark",
+        "Assistance"
       ]
     }
   ]

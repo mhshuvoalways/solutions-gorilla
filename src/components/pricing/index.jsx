@@ -31,7 +31,7 @@ const Pricing = () => {
         <Title title={pricing.title} className={"text-center"} />
         <div className="gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
           {pricing.items.map((item) => (
-            <PriceItem item={item} key={item.id} />
+            <PriceItem item={item} key={item.id} includes={pricing.includes} />
           ))}
         </div>
         <p className="text-center text-2xl mt-20">

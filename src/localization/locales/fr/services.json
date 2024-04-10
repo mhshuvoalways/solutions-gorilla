@@ -2,15 +2,15 @@
   "items": [
     {
       "img": "head-icon.svg",
-      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+      "des": "Nous offrons un support pour vous aider et répondre à vos questions, et nous consacrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois déployée."
     },
     {
       "img": "bar-icon.svg",
-      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+      "des": "Nos modèles sont construits sur une structure logique et modulaire afin de réduire la charge cognitive de vos développeurs et d'autonomiser vos ingénieurs DevOps et plateforme."
     },
     {
       "img": "light-icon.svg",
-      "des": "Nous vous proposons un support pour vous assister chaque fois qu'une question se pose et nous vous offrons du temps pour vous accompagner dans la personnalisation de votre plateforme une fois qu'elle est déployée."
+      "des": "Nous vous proposons des solutions pour maintenir votre environnement à jour et bénéficier des derniers correctifs de vulnérabilité et des nouvelles fonctionnalités disponibles."
     }
   ]
 }

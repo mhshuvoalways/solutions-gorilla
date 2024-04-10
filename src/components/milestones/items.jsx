@@ -1,3 +1,4 @@
+import parse from "html-react-parser";
 import { Fade } from "react-awesome-reveal";
 import ScreenShots from "../common/screenshots";
 import Title from "../common/title";
@@ -19,7 +20,7 @@ const items = ({ reverse, image, title, subTitle, description }) => {
         <Fade direction="up">
           <p className="text-2xl text-white">{subTitle}</p>
         </Fade>
-        <p className="mt-5 text-lg">{description}</p>
+        <p className="mt-5 text-lg">{parse(description)}</p>
       </div>
     </div>
   );

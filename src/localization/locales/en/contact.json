@@ -14,12 +14,8 @@
       "name": "email"
     },
     "reason": {
-      "options": [
-        "Choose use case",
-        "Request a Demo",
-        "Get a trial",
-        "Informations / Questions"
-      ],
+      "default": "Choose use case",
+      "options": ["Request a Demo", "Get a trial", "Informations / Questions"],
       "name": "reason"
     },
     "message": {

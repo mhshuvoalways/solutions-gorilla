@@ -14,8 +14,8 @@
       "name": "email"
     },
     "reason": {
+      "default": "Choisir une option",
       "options": [
-        "Choisir une option",
         "Demande de démonstration",
         "Demande d&#x27;essaie gratuit",
         "Informations / Questions"

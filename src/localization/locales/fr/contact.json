@@ -17,7 +17,7 @@
       "default": "Choisir une option",
       "options": [
         "Demande de démonstration",
-        "Demande d&#x27;essaie gratuit",
+        "Demande d'essaie gratuit",
         "Informations / Questions"
       ],
       "name": "reason"

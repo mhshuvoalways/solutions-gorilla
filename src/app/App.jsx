@@ -12,8 +12,9 @@ const App = () => {
   const { i18n } = useTranslation();
 
   useEffect(() => {
+    const lang = localStorage.getItem("language");
     const defaultLanguage = navigator.language;
-    if (defaultLanguage.includes("fr")) {
+    if (lang?.includes("fr") || defaultLanguage.includes("fr")) {
       i18n.changeLanguage("fr");
     } else {
       i18n.changeLanguage("en");

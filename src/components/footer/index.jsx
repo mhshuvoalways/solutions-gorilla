@@ -7,10 +7,13 @@ const Footer = () => {
   const changeLanguage = (value) => {
     if (value === "English") {
       i18n.changeLanguage("en");
+      localStorage.setItem("language", "en");
     } else {
       i18n.changeLanguage("fr");
+      localStorage.setItem("language", "fr");
     }
   };
+  
   return (
     <div className="flex justify-evenly items-center border-t my-20 border-sheer-white">
       <p className="text-center my-10">

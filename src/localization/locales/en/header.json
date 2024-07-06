@@ -4,7 +4,7 @@
     { "menu": "The Platform", "url": "/architecture" },
     { "menu": "Pricing", "url": "/pricing" },
     { "menu": "About Us", "url": "/about-us" },
-    { "menu": "Get a Trial", "url": "/contact-us" },
-    { "menu": "Book a Demo", "url": "/contact-us" }
+    { "menu": "StartupFest", "url": "/startup" },
+    { "menu": "Contact Us", "url": "/contact-us" }
   ]
 }

@@ -7,6 +7,7 @@ import ContactUs from "../pages/ContactUs";
 import Home from "../pages/Home";
 import OurProcess from "../pages/OurProcess";
 import Pricing from "../pages/Pricing";
+import StartUp from "../pages/StartUp";
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/architecture" element={<Architecture />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/startup" element={<StartUp />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>

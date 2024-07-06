@@ -4,7 +4,7 @@
     { "menu": "La Plateforme", "url": "/architecture" },
     { "menu": "Prix", "url": "/pricing" },
     { "menu": "À Propos", "url": "/about-us" },
-    { "menu": "Essai Gratuit", "url": "/contact-us" },
+    { "menu": "Essai Gratuit", "url": "/startup" },
     { "menu": "Voir la Démo", "url": "/contact-us" }
   ]
 }

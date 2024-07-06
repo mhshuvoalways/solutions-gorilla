@@ -24,10 +24,10 @@ const Header = () => {
         ))}
       </ul>
       <div className="lg:flex items-center gap-3 hidden">
-        <Link to={"/contact-us"}>
-          <button className="btn">{items[4].menu}</button>
+        <Link to={items[4].url}>
+          <button className="btn bg-yellow-500">{items[4].menu}</button>
         </Link>
-        <Link to={"/contact-us"}>
+        <Link to={items[5].url}>
           <button className="btn">{items[5].menu}</button>
         </Link>
       </div>
